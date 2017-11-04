@@ -1,9 +1,8 @@
 # R-PBX
 Tiny IP-PBX on ARM Processor Such as Raspberry Pi
 
-# Description
 
-## 얼쑤 R-PBX RPi 2/3
+# Overview R-PBX RPi 2/3
 
 1. O/S 
   - Fedora 18 (Sperical Cow)
@@ -18,4 +17,8 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
   - Zend Engine v2.4.0
   - MySQL 5.5.35
   - OLSSOO 1.0 (customizing and performance tunning)
-    a. Include access to OLSSOO Connected Services
+  - Include access to OLSSOO Connected Services
+
+# Raspbeery Pi SD Card Image
+
+  - somewhere link.
