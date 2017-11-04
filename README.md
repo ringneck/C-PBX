@@ -19,6 +19,6 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
   - OLSSOO 1.0 (customizing and performance tunning)
   - Include access to OLSSOO Connected Services
 
-# Raspbeery Pi SD Card Image
+# Raspberry Pi SD Card Image
 
   - somewhere link.
