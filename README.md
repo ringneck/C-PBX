@@ -56,27 +56,28 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
   - Option for Outbound : Trunk(SIP)
   
  
-# Default configration Info
+# Default Infomation
 
-  - Network
+  [Network]
   - IP : 192.168.17.140  
   - SN : 255.255.255.0 
   - GW : 192.168.17.1
 
-  - Access Info
-  - [System Access]
-    root // RRaspberry
+# Access Info
+  [System Access]
+  - root // RRaspberry
 
-  - [DB Access]
+  [DB Access]
   - root // DBRaspberry
 
-  - [Web Manager Access]
+  [Web Manager Access]
   - admin // Raspberry
 
-  - [FreePBX Web Access]
+  [FreePBX Web Access]
   - admin // Raspberry
   
 # Configration and testing 
 
 
-# contact norman.southcastle@gmail.com
+# bug report 
+  - contact norman.southcastle@gmail.com
