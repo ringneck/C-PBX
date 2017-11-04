@@ -62,22 +62,33 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
   - IP : 192.168.17.140  
   - SN : 255.255.255.0 
   - GW : 192.168.17.1
+  
+  [Service Port]
+  - SSH : 55530
+  - AMI : 5038
+  - HTTP : 5500
+  - SIP(UDP) : 55520
+  - RTP(UDP) : 10000 ~ 20000
 
 # Access Info
   [System Access]
+  - SSH Port : 55530
   - root // RRaspberry
 
   [DB Access]
   - root // DBRaspberry
 
   [Web Manager Access]
+  - Web Port : 5500
   - admin // Raspberry
 
-  [FreePBX Web Access]
+  [FreePBX Administration Access]
   - admin // Raspberry
   
-# Configration and testing 
+# Login 
 
+  [Open browser : http://192.168.17.140:5500]
+  - admin // Raspberry
 
 # bug report 
   - contact norman.southcastle@gmail.com
