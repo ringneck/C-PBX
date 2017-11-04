@@ -1,26 +1,29 @@
-# Based on Image of Elastix for Raspbery Pi3 who made KHASHAYAR NAMDAR
-
-Special thanks for KHASHAYAR NAMDAR
-
-http://khnamdar.com/
-
-# Open Source 
-
-Asterisk : https://www.asterisk.org
-
-Elastix : https://www.elastix.org
-
-FreePBX : https://www.freepbx.org
-
-Apache, PHP, Zend, MySQL and so on.
-
-# Commercial Services
-
-OLSSOO : http://www.olssoo.com
 
 
 # R-PBX
+
 Tiny IP-PBX on ARM Processor Such as Raspberry Pi
+
+
+[Based on Image of Elastix for Raspbery Pi3 who made KHASHAYAR NAMDAR]
+
+  - Special thanks for KHASHAYAR NAMDAR
+
+  - http://khnamdar.com/
+
+# Open Source 
+
+  - Asterisk : https://www.asterisk.org
+
+  - Elastix : https://www.elastix.org
+
+  - FreePBX : https://www.freepbx.org
+
+  - Apache, PHP, Zend, MySQL and so on.
+
+# Commercial Services
+
+  - OLSSOO : http://www.olssoo.com
 
 
 # Overview R-PBX RPi 2/3
