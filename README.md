@@ -3,12 +3,12 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
 
 # Description
 
-# 얼쑤 R-PBX RPi 2/3
+## 얼쑤 R-PBX RPi 2/3
 
-O/S 
+1. O/S 
 Fedora 18 (Sperical Cow)
 
-Packages
+2. Packages
 Asterisk  11.7
 FreePBX  2.11.43
 Elastix  2.4.0
