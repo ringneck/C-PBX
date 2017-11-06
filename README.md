@@ -109,3 +109,7 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
 
   - Change all system passwords
   - shell]root# rpbx-admin-passwords
+  
+  - Change IP Address and Networking
+  - http://IPAddress:5500/index.php?menu=network
+  
