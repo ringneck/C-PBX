@@ -49,7 +49,7 @@ http://cafe.naver.com/asterisker/8960
   - Zend Engine v2.4.0
   - MySQL 5.5.35
   - OLSSOO 1.0 (customizing, performance tunning)
-  - Include access to OLSSOO Connected Services
+  - Include access to OLSSOO Connected Services (ing...)
 
 # Raspberry Pi SD Card Image (Samsung EVO 16G)
 
