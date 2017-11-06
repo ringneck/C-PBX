@@ -5,14 +5,18 @@
 Tiny IP-PBX on ARM Processor Such as Raspberry Pi
 
 # R-PBX QNA
+  - http://cafe.naver.com/asterisker/8960
 
-http://cafe.naver.com/asterisker/8960
+
+# R-PBX Case Study
+  - http://cafe.naver.com/asterisker/8961
 
 
-# bug report 
+# Bug report 
   - contact norman.southcastle@gmail.com
   
 
+# Based on
 [Based on Image of Elastix for Raspbery Pi3 who made KHASHAYAR NAMDAR]
 
   - Special thanks for KHASHAYAR NAMDAR
@@ -101,3 +105,7 @@ http://cafe.naver.com/asterisker/8960
   [Open browser : http://192.168.17.140:5500]
   - admin // Raspberry
   
+# After installation
+
+  - Change all system passwords
+  - shell]root# rpbx-admin-passwords
