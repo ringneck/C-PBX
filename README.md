@@ -4,6 +4,14 @@
 
 Tiny IP-PBX on ARM Processor Such as Raspberry Pi
 
+# R-PBX QNA
+
+http://cafe.naver.com/asterisker/8960
+
+
+# bug report 
+  - contact norman.southcastle@gmail.com
+  
 
 [Based on Image of Elastix for Raspbery Pi3 who made KHASHAYAR NAMDAR]
 
@@ -93,7 +101,3 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
   [Open browser : http://192.168.17.140:5500]
   - admin // Raspberry
   
-  
-
-# bug report 
-  - contact norman.southcastle@gmail.com
