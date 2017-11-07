@@ -58,9 +58,6 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
 
   - Download Lisk (V1.1) : http://gofile.me/30zWY/0kwrvMYXd
   
-  - File Size Checking : 15,720,251,392 Byte (15.72GB)
-  
-  
 # Image history
 
   - V1.1 (ing...)
