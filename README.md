@@ -56,7 +56,7 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
 
 # Raspberry Pi SD Card Image (Samsung EVO 16G)
 
-  - Download Lisk : http://gofile.me/30zWY/nTyXR2UkQ
+  - Download Lisk (V1.1) : http://gofile.me/30zWY/0kwrvMYXd
   
   - File Size Checking : 15,720,251,392 Byte (15.72GB)
   
