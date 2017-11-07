@@ -13,8 +13,7 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
 
 
 # Bug report 
-  - contact norman.southcastle@gmail.com
-  
+  - contact norman.southcastle@gmail.com
 
 # Based on
 [Based on Image of Elastix for Raspbery Pi3 who made KHASHAYAR NAMDAR]
@@ -62,6 +61,12 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
   - File Size Checking : 15,720,251,392 Byte (15.72GB)
   
   
+# Image history
+
+  - V1.1 (ing...)
+    - 시간그룹, 시간라우트, 관리자내선번호 변경 1004 => 9999
+  
+  
 # Prepare
 
   - SIP Phone (Soft, Hard) or VoIP G/W(ATA/MTA) 2 more.
