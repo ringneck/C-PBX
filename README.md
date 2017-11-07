@@ -65,7 +65,7 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
 
   - V1.1 (ing...)
     - 시간그룹, 시간라우트, 관리자내선번호 변경 1004 => 9999
-  
+    - 
   
 # Prepare
 
