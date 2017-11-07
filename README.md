@@ -63,9 +63,10 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
   
 # Image history
 
-  - V1.1 (ing...)
-    - 시간그룹, 시간라우트, 관리자내선번호 변경 1004 => 9999
-    - 패널 모니터링 
+  - V1.1 (ing...)
+  - 시간그룹, 시간라우트, 관리자내선번호 변경 1004 => 9999
+  - 패널 모니터링 수정
+  - 사용자 화면 수정
   
 # Prepare
 
