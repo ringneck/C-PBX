@@ -65,6 +65,7 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
   - 패널 모니터링 수정
   - 사용자 화면 수정
   - 안내멘트, 라우트, CSV내선설정 등, 안정화
+  - 백업 / 복원 안정화 
   
 # Prepare
 
