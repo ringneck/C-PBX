@@ -56,7 +56,7 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
 
 # Raspberry Pi SD Card Image (Samsung EVO 16G)
 
-  - Download Lisk (V1.1) : http://gofile.me/30zWY/rhxR3KUeu
+  - Download Lisk (V1.1) : http://gofile.me/30zWY/VUfWMox14
   
 # Image history
 
