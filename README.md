@@ -64,6 +64,7 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
   - 시간그룹, 시간라우트, 관리자내선번호 변경 1004 => 9999
   - 패널 모니터링 수정
   - 사용자 화면 수정
+  - 안내멘트, 라우트, CSV내선설정 등, 안정화
   
 # Prepare
 
