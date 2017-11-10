@@ -73,6 +73,7 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
    - 에코테스트 기능 추가 *43
    - 디스크 정리
    - 사용자화면 수정 및 안정화
+   - 초보자를 위하여 기본설정 포함
   
 # Prepare
 
