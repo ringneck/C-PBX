@@ -58,7 +58,7 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
 
   - Download Lisk (V1.1) : http://gofile.me/30zWY/GxgXL4hqi
   
-  - Download Lisk (V1.2) : http://gofile.me/30zWY/m41QJrsBW
+  - Download Lisk (V1.2) : http://gofile.me/30zWY/T7m4arF79
   
   
 # Image history
