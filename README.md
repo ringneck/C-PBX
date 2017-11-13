@@ -74,6 +74,15 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
    - 디스크 정리
    - 사용자화면 수정 및 안정화
    - 초보자를 위하여 기본설정 포함
+   
+# 기능 코드 추가   
+
+1234 => R-PBX 소개
+
+*43 => 에코 테스트 (Skype 품질테스트와 비슷)
+
+**015500 =>  R-PBX ADMIN IVR (ing..)
+
   
 # Prepare
 
