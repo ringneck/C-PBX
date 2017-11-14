@@ -68,7 +68,7 @@ V 2.X
 
 # Raspberry Pi SD Card Image (Samsung EVO 16G)
   
-  - Download Lisk (V1.2) : http://gofile.me/30zWY/T7m4arF79
+  - Download Lisk (V1.2) : http://gofile.me/30zWY/j05BbHNbL
   
   - Download Lisk (V2.0) : http://gofile.me/30zWY/qp1Ox3QCJ
   
