@@ -42,11 +42,12 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
 1. O/S 
   - Fedora 18 (Sperical Cow)
 
-2. Packages
+2. Packages 
 
+V 1.X
   - Asterisk  11.7
   - FreePBX  2.11.43
-  - Elastix  2.4.0
+  - Elastix  2.4.0 
   - Apache 2.4.6
   - PHP 5.4.23
   - Zend Engine v2.4.0
@@ -54,10 +55,22 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
   - OLSSOO 1.0 (customizing, performance tunning)
   - Include access to OLSSOO Connected Services (ing...)
 
+V 2.X
+  - Asterisk  11.24
+  - FreePBX  2.11.43
+  - Elastix  2.5.0-1 
+  - Apache 2.4.6
+  - PHP 5.4.23
+  - Zend Engine v2.4.0
+  - MySQL 5.5.35
+  - OLSSOO 2.0 (customizing, performance tunning)
+  - Include access to OLSSOO Connected Services (ing...)
+
 # Raspberry Pi SD Card Image (Samsung EVO 16G)
   
   - Download Lisk (V1.2) : http://gofile.me/30zWY/T7m4arF79
   
+  - Download Lisk (V2.0) : 
   
 # Image history
 
