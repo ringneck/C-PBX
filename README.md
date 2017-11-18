@@ -65,23 +65,6 @@ V 2.X
   - MySQL 5.5.35
   - OLSSOO 2.0 (customizing, performance tunning)
   - Include access to OLSSOO Connected Services (ing...)
-
-  
-# Image history
-
-  - V1.1 
-  - 시간그룹, 시간라우트, 관리자내선번호 변경 1004 => 9999
-  - 패널 모니터링 수정
-  - 사용자 화면 수정
-  - 안내멘트, 라우트, CSV내선설정 등, 안정화
-  - 백업 / 복원 안정화 
-  
-   - V1.2 (ing...)
-   - 대기열, 음성회의 음성추가
-   - 에코테스트 기능 추가 *43
-   - 디스크 정리
-   - 사용자화면 수정 및 안정화
-   - 초보자를 위하여 기본설정 포함
    
    
 # 기능 코드 추가   
