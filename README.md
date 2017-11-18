@@ -66,11 +66,6 @@ V 2.X
   - OLSSOO 2.0 (customizing, performance tunning)
   - Include access to OLSSOO Connected Services (ing...)
 
-# Raspberry Pi SD Card Image (Samsung EVO 16G)
-  
-  - Download Lisk (V1.2) : http://gofile.me/30zWY/j05BbHNbL
-  
-  - Download Lisk (V2.0) : http://gofile.me/30zWY/qp1Ox3QCJ
   
 # Image history
 
@@ -87,6 +82,7 @@ V 2.X
    - 디스크 정리
    - 사용자화면 수정 및 안정화
    - 초보자를 위하여 기본설정 포함
+   
    
 # 기능 코드 추가   
 
