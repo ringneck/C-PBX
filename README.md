@@ -35,6 +35,10 @@ Tiny IP-PBX on ARM Processor Such as Raspberry Pi
 # Commercial Services
 
   - OLSSOO : http://www.olssoo.com
+  
+  
+ # Download installation image for english !
+ http://gofile.me/30zWY/A8SV0CToO
 
 
 # Overview R-PBX RPi 2/3
