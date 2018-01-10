@@ -48,8 +48,8 @@ Based on raspbx-03-12-2017.zip.torrent
  
 # Installation
 
-- Install Sqlite
-<apt -y install php5-sqlite dialog libsasl2-2 libsasl2-modules sasl2-bin libsqlite3-dev libssl1.0-dev php-db>
+Install Sqlite
+- apt -y install php5-sqlite dialog libsasl2-2 libsasl2-modules sasl2-bin libsqlite3-dev libssl1.0-dev php-db
 
 
   
