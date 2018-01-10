@@ -48,8 +48,11 @@ Based on raspbx-03-12-2017.zip.torrent
  
 # Installation
 
-Install Sqlite
+Install Sqlite.
 - apt -y install php5-sqlite dialog libsasl2-2 libsasl2-modules sasl2-bin libsqlite3-dev libssl1.0-dev php-db
+
+Install Prepare Packages.
+- apt-get install -y build-essential openssh-server apache2 mysql-server mysql-client bison flex php5 php5-curl php5-cli php5-mysql php-pear php5-gd curl sox libncurses5-dev libssl-dev libmysqlclient-dev mpg123 libxml2-dev libnewt-dev sqlite3 libsqlite3-dev pkg-config automake libtool autoconf git subversion uuid uuid-dev libiksemel-dev tftpd postfix mailutils nano ntp chkconfig libspandsp-dev libcurl4-gnutls-dev unixodbc unixodbc-dev libmyodbc xinetd e2fsprogs linux-headers*
 
 
   
