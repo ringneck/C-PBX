@@ -36,9 +36,7 @@ Based on raspbx-03-12-2017.zip.torrent
   - PHP 5.6.30-0+deb8u1 (cli) (built: Apr 14 2017 16:20:58) 
   - Zend Engine v2.6.0
   - MariaDB 10.1.23-MariaDB-9+deb9u1 Raspbian 9.0
-  - OLSSOO 2.0 korean suit (customizing, performance tunning, translating ..and so on)
-  - Include Ready to OLSSOO Services 
-
+  - OLSSOO FACTORY Custmizing.
 
 
 # Prepare
@@ -49,6 +47,10 @@ Based on raspbx-03-12-2017.zip.torrent
   
  
 # Installation
+
+- Install Sqlite
+<apt -y install php5-sqlite dialog libsasl2-2 libsasl2-modules sasl2-bin libsqlite3-dev libssl1.0-dev php-db>
+
 
   
 
