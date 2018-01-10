@@ -135,3 +135,6 @@ echo /usr/local/sbin/amportal start >> /etc/rc.local
 reboot
 ```
 
+## 참조문서
+
+https://wiki.freepbx.org/display/FOP/Installing+FreePBX+2.11+on+Debian+Wheezy
