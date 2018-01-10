@@ -110,7 +110,6 @@ mysqladmin create asteriskcdrdb
 mysql asterisk < SQL/newinstall.sql
 ```
 
-# Install conference
 ```bash
 cd /usr/src/olssoo/
 mysqladmin create meetme
