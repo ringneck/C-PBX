@@ -1,0 +1,55 @@
+<?php
+  /* vim: set expandtab tabstop=4 softtabstop=4 shiftwidth=4:
+  Codificación: UTF-8
+  +----------------------------------------------------------------------+
+  | Elastix version 1.4-1                                               |
+  | http://www.elastix.org                                               |
+  +----------------------------------------------------------------------+
+  | Copyright (c) 2006 Palosanto Solutions S. A.                         |
+  +----------------------------------------------------------------------+
+  | Cdla. Nueva Kennedy Calle E 222 y 9na. Este                          |
+  | Telfs. 2283-268, 2294-440, 2284-356                                  |
+  | Guayaquil - Ecuador                                                  |
+  | http://www.palosanto.com                                             |
+  +----------------------------------------------------------------------+
+  | The contents of this file are subject to the General Public License  |
+  | (GPL) Version 2 (the "License"); you may not use this file except in |
+  | compliance with the License. You may obtain a copy of the License at |
+  | http://www.opensource.org/licenses/gpl-license.php                   |
+  |                                                                      |
+  | Software distributed under the License is distributed on an "AS IS"  |
+  | basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See  |
+  | the License for the specific language governing rights and           |
+  | limitations under the License.                                       |
+  +----------------------------------------------------------------------+
+  | The Original Code is: Elastix Open Source.                           |
+  | The Initial Developer of the Original Code is PaloSanto Solutions    |
+  +----------------------------------------------------------------------+
+  $Id: ko.lang,v 1.1 2009-01-06 09:01:38 jvega jvega@palosanto.com Exp $ */
+global $arrLangModule;
+$arrLangModule=array(
+"Summary by Extension" => " 내선별 통화통계",
+"Start Date" => "시작일",
+"End Date" => "종료일",
+"Start date" => "시작일",
+"End date" => "종료일",
+"Extension"=>"내선",
+"User name"=>"사용자",
+"Sec. Outgoing Calls"=>"발신통화시간",
+"Sec. Incoming Calls"=>"수신통화시간",
+"Num. Outgoing Calls"=>"# 발신콜 수",
+"Num. Incoming Calls"=>"# 수신콜 수",
+"Call Details" => "상세보기",
+"Top 10 (Outgoing) ext" => "발신번호 순위10개, 내선번호 : ",
+"Top 10 (Incoming) ext" => "수신번호 순위10개, 내선번호 : ",
+"Filter by" => "필터",
+"User" => "사용자",
+"seconds" => "seconds",
+"Other calls" => "기타 콜",
+"External #" => "외부 #",
+"calls" => "콜",
+"call" => "콜",
+"No data to display" => "No DATA",
+"Details" => "상세보기"
+);
+?>

@@ -1,0 +1,98 @@
+<?php
+/* vim: set expandtab tabstop=4 softtabstop=4 shiftwidth=4:
+  Codificación: UTF-8
+  +----------------------------------------------------------------------+
+  | Elastix version 0.5                                                  |
+  | http://www.elastix.com                                               |
+  +----------------------------------------------------------------------+
+  | Copyright (c) 2006 Palosanto Solutions S. A.                         |
+  +----------------------------------------------------------------------+
+  | Cdla. Nueva Kennedy Calle E 222 y 9na. Este                          |
+  | Telfs. 2283-268, 2294-440, 2284-356                                  |
+  | Guayaquil - Ecuador                                                  |
+  | http://www.palosanto.com                                             |
+  +----------------------------------------------------------------------+
+  | The contents of this file are subject to the General Public License  |
+  | (GPL) Version 2 (the "License"); you may not use this file except in |
+  | compliance with the License. You may obtain a copy of the License at |
+  | http://www.opensource.org/licenses/gpl-license.php                   |
+  |                                                                      |
+  | Software distributed under the License is distributed on an "AS IS"  |
+  | basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See  |
+  | the License for the specific language governing rights and           |
+  | limitations under the License.                                       |
+  +----------------------------------------------------------------------+
+  | The Original Code is: Elastix Open Source.                           |
+  | The Initial Developer of the Original Code is PaloSanto Solutions    |
+  +----------------------------------------------------------------------+
+  $Id: es.lang,v 1.2 2007/08/09 00:31:28 jmartinez Exp $ */
+global $arrLangModule;
+$arrLangModule=array(
+"Desactivate" => "비활성화",  
+"New Field" => "새로운 필드",   
+"Add Field" => "필드 추가",   
+"Update Field" => "필드 업데이트",  
+"Are you sure you wish to delete form?"=>"Are you sure you wish to delete form?",
+"Form Name" => "템플릿 이름",  
+"Form Description" => "템플릿 설명",    
+"Field Name" => "필드 이름",  
+"CSV Column" => "CSV 컬럼", 
+"Column Number" => "컬럼 번호",  
+"Lines Number" => "Lines Number",  
+"Field Validation" => "Field Validation",  
+"Order" => "순서",  
+"List Item" => "List Item",  
+"Add Item" => "추가",  
+"Remove Item" => "제거",  
+"New Form" => "새로운 템플릿",  
+"View Form" => "템플릿 보기",  
+"Edit Form" => "템플릿 편집",  
+"Activate" => "활성화",
+"Form List" => "템플릿 리스트",   
+"Form Designer" => "Form Designer",
+"Create New Form" => "새로운 템플릿 생성",   
+"Activate Error" => "활성화 에러",  
+"Error when Activating the form" => "Error when Activating the form",  
+"Error when deleting the Form"=>"Error when deleting the Form",
+"This field is been used by any campaign"=>"This field is being used by any campaign",
+"This form is been used by any campaign"=>"This form is being used by any campaign",
+"Add Field Successfully" => "Add Field Successfully",  
+"Field could not be added in the Form" => "Field could not be added in the Form",  
+"Form could not be added" => "Form could not be added",  
+"Values Field" => "데이터",   
+"Form could not be cancelled" => "Form could not be cancelled",  
+"Error Id Form" => "Error Id Form",   
+"Error Form Name is empty" => "Error Form Name is empty",   
+"Error Field Name is empty" => "Error Field Name is empty",   
+"Error List is empty" => "Error List is empty",  
+"Error in Order is empty or is not numeric" => "Error in Order is empty or is not numeric", 
+"Order already exists" => "Order already exists",  
+"Edit Field" => "필드 편집",  
+"Update Field Successfully" => "Field successfully updated",  
+"Field could not be updated in the Form" => "Field could not be updated in the Form",
+"Form could not be updated" => "Form could not be updated",  
+"Desactivate Error" => "비화성화 에러",  
+"Error when eliminating the form" => "Error when eliminating the form",
+"Delete Field Successfully" => "Field successfully deleted",  
+"Type Label" => "Instruction",  
+"TEXT" => "Text",  
+"LABEL" => "Instruction",  
+"TEXTAREA" => "Text Area",  
+"LIST" => "List",  
+"DATE" => "Date",  
+"Type Label"=>"Type Label",
+"Type Text"=>"Type Text",
+"Type List"=>"Type List",
+"Type Date"=>"Type Date",
+"Type Text Area"=>"Type Text Area",
+"Type" => "타입",
+"Status" => "상태",
+"Active" => "활성화",
+"Inactive" => "비활성화",
+"View" => "보기",
+"All" => "전체",
+'No Data Found'=>'데이타가 없습니다',
+'Drag and drop to reorder fields'=>'Drag and drop to reorder fields',
+'new field'=>'필드 추가',
+);
+?>

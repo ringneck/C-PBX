@@ -1,0 +1,378 @@
+<?php
+/* vim: set expandtab tabstop=4 softtabstop=4 shiftwidth=4:
+  Codificación: UTF-8
+  +----------------------------------------------------------------------+
+  | Elastix version 0.5                                                  |
+  | http://www.elastix.org                                               |
+  +----------------------------------------------------------------------+
+  | Copyright (c) 2006 Palosanto Solutions S. A.                         |
+  +----------------------------------------------------------------------+
+  | Cdla. Nueva Kennedy Calle E 222 y 9na. Este                          |
+  | Telfs. 2283-268, 2294-440, 2284-356                                  |
+  | Guayaquil - Ecuador                                                  |
+  | http://www.palosanto.com                                             |
+  +----------------------------------------------------------------------+
+  | The contents of this file are subject to the General Public License  |
+  | (GPL) Version 2 (the "License"); you may not use this file except in |
+  | compliance with the License. You may obtain a copy of the License at |
+  | http://www.opensource.org/licenses/gpl-license.php                   |
+  |                                                                      |
+  | Software distributed under the License is distributed on an "AS IS"  |
+  | basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See  |
+  | the License for the specific language governing rights and           |
+  | limitations under the License.                                       |
+  +----------------------------------------------------------------------+
+  | The Original Code is: Elastix Open Source.                           |
+  | The Initial Developer of the Original Code is PaloSanto Solutions    |
+  +----------------------------------------------------------------------+
+  $Id: ko.lang,v 1.7 2007/09/05 00:36:42 gcarrillo Exp $ */
+global $arrLang;
+$arrLang=array(
+/*System Info*/
+"System Resources"=>"시스템 리소스",
+"Disk usage"=>"디스크 사용",
+"Used space"=>"사용 공간",
+"Free space"=>"남은 공간",
+"Simultaneous calls, memory and CPU"=>"실시간 동시콜, CPU / Memory",
+"Sim. calls"=>"동시콜",
+"CPU usage (%)"=>"CPU 사용량(%)",
+"Mem. usage (MB)"=>"Mem. 사용량(MB)",
+
+"Export"=>"내보내기",
+"Start"=>"처음",
+"End"=>"끝",
+"Next"=>"다음",
+"Previous"=>"이전",
+
+
+"Validation Error"=>"입력 포맷이 맞지 않습니다",
+"The following fields contain errors"=>"아래 항목에 에러가 있습니다 ",
+"Save"=>"저장",
+"Required field"=>"필수 항목",
+"Apply changes"=>"변경 내용 저장",
+"Cancel"=>"취소",
+
+/*Login to Elastix*/
+"Welcome to Elastix"=>"Welcome to DR-PBX",
+"Please enter your username and password"=>"사용자이름과 비밀번호를 입력하세요",
+"Username"=>"사용자이름",
+"Password"=>"비밀번호",
+"Submit"=>"로그인",
+"Login page"=>"로그인페이지",
+/*end Login to Elastix*/
+
+/*start User Management*/
+"Group"=>"그룹",
+"Group List"=>"그룹리스트",
+"User List"=>"사용자리스트",
+"The group is wrong"=>"그룹이 잘못되었습니다",
+
+
+
+"Are you sure you wish to continue?"=>"정말, 계속 진행하시겠습니까 ?",
+"Edit"=>"편집",
+"Delete"=>"삭제",
+"Accept"=>"Aceptar",
+"Group Permission"=>"그룹제한",
+"Users" => "사용자",
+"Directory couldn't be opened"=>"디렉토리가 열리지 않습니다",
+/*end User Management*/
+
+/*start menu*/
+"System"=>"시스템",
+"System Info"=>"시스템정보",
+"User Management"=>"사용자관리",
+"Users"=>"사용자",
+"Menu Administrator"=>"메뉴관리자",
+/*end menu*/
+
+/*Start Language*/
+"Language"=>"언어",
+"Change"=>"변경",
+"Logout"=>"로그아웃",
+/*end Language*/
+
+/*version 0.7*/
+/*start paloSantoValidar.class.php*/
+"Options"=>"옵션",
+"Empty field"=>"입력된 내용이 없습니다",
+"Bad Format"=>"포맷이 맞지 않습니다",
+"No option was selected"=>"옵션이 선택되지 않았습니다",
+"Octets out of range"=>"Octetos fuera de rango",
+"Undefined validation type" => "입력 형식이 설정 되지 않았습니다",
+/*end paloSantoValidar.class.php*/
+
+/*version 0.8*/
+/*start user*/
+"View User"=>"사용자 보기",
+/*end user*/
+
+
+/*system - date/time*/
+"Date/Time" => "날자/시간",
+/*end system - date/time*/
+
+/*load module*/
+"Load Module" => "모듈 로드",
+"ID for new module (folder name)"  =>  "새로운 모듈 ID (폴더 이름)",
+"Choose Menu"  =>  "메뉴 선택",
+"ID for new menu"  =>  "새로운 메뉴 ID",
+"Menu Name"  =>  "메뉴 이름",
+"Defined Menu"  =>  "메뉴 정의",
+"New Menu"  =>  "새로운 메뉴",
+"Module sucessfully loaded"  =>  "모듈이 성공적으로 로딩되었습니다",
+"모듈에 폴더 이름이 없습니다"  =>  "모듈에 폴더 이름이 없습니다",
+"모듈에 폴더 설정이 없습니다"  =>  "모듈에 폴더 설정이 없습니다",
+"모듈에 폴더 테마가 없습니다"  => "모듈에 폴더 테마가 없습니다",
+"모듈에 index.php 파일이 없습니다"  =>  "모듈에 index.php 파일이 없습니다",
+/*end load module*/
+
+
+// Elastix 0.9 
+
+/*Start SubModule Themes*/
+"Themes" => "테마",
+"Change Theme" => "테마 변경",
+/*end SubModule Themes*/
+
+/*Module IM*/
+"IM" => "메신져",
+"OpenFire" => "OpenFire",
+"The service Openfire No running" => "The service Openfire No running",
+"Webmin" => "Webmin",
+"The service Webmin No running" => "The service Webmin No running",
+
+
+/*vTigerCRM*/
+"vTigerCRM" => "vTigerCRM",
+"The vTiger installation is almost done. To complete it please" => "The vTiger installation is almost done. To complete it please ",
+"click here" => "클릭",
+
+/*Sugarcrm*/
+"SugarCRM" => "SugarCRM",
+"The SugarCRM installation is almost done. To complete it please" => "The SugarCRM installation is almost done. To complete it please",
+
+/* Preferences*/
+"Preferences" => "시스템설정",
+
+/* Start About Elastix */
+"About Elastix"=>"About OLSSOO DR-PBX",
+"About Elastix2"=>"About Us",
+"HELP"=>"도움말",
+"About Elastix Content"=>"About OLSSOO DR-PBX Content",
+"About Elastix Closed"=>"About OLSSOO DR-PBX Closed",
+/* End About Elastix */
+
+//Elastix 0.9.1
+/*Start module Group List*/
+"Groups"=>"그룹",
+/*End module Group List*/
+
+/** Elastix 1.0 **/
+/*Start UserList*/
+"administrator" => "관리자",
+"operator" => "운영자",
+"extension" => "내선번호",
+"total access" => "전체 접근",
+"extension user" => "내선 사용자",
+/*end UserList*/
+"Title" => "제목",
+"Search" => "검색",
+"Show"   => "보기",
+'md_message_title' => "확인후닫기",
+"ERROR" => "에러",
+"VersionDetails" => "상세버젼",
+"VersionPackage" => "패키지버젼",
+"textMode" => "텍스트 모드",
+"htmlMode" => "Html 모드",
+"Register" => "Register",
+"Registered" => "등록됨",
+"Unauthorized" => "접근제한",
+"You are not authorized to access to this page" => "이 페이지에 접근 권한이 없습니다",
+"You need administrator privileges" => "시스템 관리자 권한이 필요합니다",
+"Elastix Authentication" => "DR-PBX 인증",
+
+/*new*/
+"Please write your current password." => "현재 비밀번호를 입력하세요",
+"Please write the new password and confirm the new password." => "새로운 비밀번호를 두번 입력하세요",
+"The new password doesn't match with retype new password." => "새로운 비밀번호가 서로 다릅니다",
+"Please your session id does not exist. Refresh the browser and try again." => "Please your session id does not exist. Refresh the browser and try again",
+"Elastix password has been changed." => "DR-PBX 비밀번호가 변경되었습니다.",
+"Impossible to change your Elastix password." => "Imposible cambiar su clave de usuario Elastix.",
+"Impossible to change your Elastix password. User does not exits or password is wrong" => "Imposible cambiar su clave de usaurio Elastix. Nombre de usuario no existe o la clave es incorrecta",
+"Change Elastix Password" => "DR-PBX 비밀번호 변경",
+"Current Password" => "현재 비밀번호",
+"New Password" => "새로운 비밀번호",
+"Retype New Password" => "새로운 비밀번호 재입력",
+"Change" => "변경",
+"Search modules" => "모듈 검색",
+"Unauthorized" => "접근 금지",
+"You are not authorized to access this page." => "Usted no está autorizado a acceder a esta página",
+"You have not permissions to access to Flash Operator Panel. Please contact your administrator." => "Usted no tiene permisos para acceder al Flash Operator Panel. Por favor contacte a su administrador.",
+"Advice" => "어드바이스",
+"Bookmarks" => "북마크",
+"History" => "히스토리",
+"The maximum of bookmarks is 5. Please uncheck one in order to add this bookmark" => "북마크는 최대 5개까지만 사용이 가능합니다",
+"Bookmark has been added." => "북마크로 추가되었습니다",
+"Bookmark cannot be added. Please try again or contact with your elastix administrator and notify the next error: " => "북마크가 실패되었습니다. 시스템 관리자에게 문의하세요 ",
+"Bookmark has been removed." => "북마크에서 삭제되었습니다",
+"Bookmark cannot be removed. Please try again or contact with your elastix administrator and notify the next error: " => "북마크에서 삭제가 실패하였습니다. 시스템 관리자에게 문의하세요 ",
+"Sending Request" => "Sending Request",
+"Request cannot be completed. Please try again or contact with your elastix administrator and notify the next error: " => "Requerimiento no pudo ser completado. Por favor intente otra vez o contacte con el administrador de su elastix y notifique el siguiente error: ",
+"Request has been sent." => "Requerimiento ha sido enviado.",
+"Add Bookmark" => "북마크 추가",
+"Remove Bookmark" => "북마크 삭제",
+"Adding Bookmark" => "북마크를 추가중입니다",
+"Removing Bookmark" => "북마크를 삭제중입니다",
+"Hiding left panel" => "단축메뉴를 안보이게 합니다.",
+"Loading left panel" => "단축메뉴를 보이게 합니다",
+"Hide left panel" => "단축메뉴 감추기",
+"Load left panel" => "단축네뮤 보여주기",
+"characters left" => "caracteres faltantes",
+"Save Note" => "메모 저장",
+"Saving Note" => "메모를 저장합니다",
+"Loading Note" => "메모를 불러옵니다",
+"Click here to leave a note." => "메모를 남기시려면, 클릭하세요",
+"Your session has expired. Press 'Accept' to return to the login page." => "Su sesión ha expirado. Presione 'Aceptar' para regresar a la página de ingreso.",
+"No records match the filter criteria" => "조회 하신 결과가 없습니다",
+"New Row" => "새로운 행",
+"Custom Action" => "커스텀 액션",
+"Delete Selected" => "선택 삭제",
+"Page" => "페이지",
+"of" => "중",
+"records" => "레코드",
+"Apply Filter" => "필터적용",
+"Download" => "다운로드",
+"WARNING" => "위험",
+"Show Filter" => "필터 보기",
+"Hide Filter" => "필터 감추기",
+"More Options" => "추가 옵션",
+"Filter applied: " => "적용된 필터: ",
+"Filter applied " => "적용된 필터: ",
+"Add" => "추가",
+"Asterisk-Cli" => "DR-PBX-Cli",
+"Save All" => "모두 저장",
+"Key" => "키",
+"Value" => "내용",
+"Network" => "네트워크",
+"Network Parameters" => "네트워크 파라미터",
+"DHCP Server" => "DHCP 서버",
+"DHCP Client List" => "DHCP 클라이언트 리스트",
+"Assign IP Address to Host" => "호스트 IP  설정",
+"Shutdown"  => "시스템 종료",
+"Hardware Detector"  => "하드웨어검출",
+"Updates"  => "업데이트",
+"Repositories"  => "저장소",
+"Packages"  => "패키지",
+"Backup/Restore"  => "백업/복원",
+"Currency"  => "환율",
+"Message"  => "메세지",
+"Calendar"  => "달력",
+"Address Book"  => "주소록",
+"Domains"  => "도메인",
+"Accounts"  => "계정",
+"Remote SMTP"  => "리모트 SMTP",
+"Email list"  => "이메일 리스트",
+"Email stats"  => "이메일 현황",
+"Vacations"  => "Vacaciones",
+"Virtual Fax"  => "팩스 단말",
+"Fax" => "팩스",
+"Virtual Fax List"  => "팩스 단말 리스트",
+"New Virtual Fax"  => "팩스 단말 추가",
+"Send Fax"  => "팩스 발송",
+"Fax Queue"  => "팩스 발송 현황",
+"Fax Master"  => "팩스 관리자",
+"Fax Clients"  => "팩스 단말 설정",
+"Fax Viewer"  => "팩스 전송 내역",
+"Email Template"  => "이메일 템플릿",
+"PBX Configuration"  => "DR-PBX 설정",
+"PBX"  => "DR-PBX",
+"Operator Panel"  => "통화 모니터링",
+"Monitoring" => "통화 녹취내역",
+"Voicemail"  => "음성사서함",
+"Calls Recordings"  => "통화 녹취내역",
+"Batch Configurations"  => "CSV 내선설정 ",
+"Endpoint Configurator"  => "단말 설정",
+"Batch of Endpoints"  => "일괄 단말 성정",
+"Batch of Extensions"  => "CSV 내선설정",
+"Conference"  => "음성회의 설정",
+"Tools"  => "디버깅 도구",
+"Asterisk File Editor"  => "환경파일 설정",
+"Text to Wav"  => "Texto a Wav",
+"Recordings"  => "음원 녹음",
+"Remote Servers"  => "원격 서버",
+"Server Key"  => "Clave del Servidor",
+"Call Center" => "콜센터",
+"Company Information"  => "회사 정보",
+"Create Conference"  => "음성회의 생성",
+"CDR Report"  => "통화내역(CDR)",
+"Channels Usage"  => "동시통화 그래프",
+"Billing"  => "빌링",
+"Rates"  => "요율",
+"Billing Report"  => "빌링 리포트",
+"Destination Distribution"  => "라우팅",
+"Billing Setup"  => "빌링 설정",
+"Graphic Report"  => "그래픽 리포트",
+"Summary"  => "내선별 통화요약",
+"Missed Calls"  => "못받은 전화내역",
+"Fax Utilities"  => "팩스 유틸리티",
+"Instant Messaging"  => "인스턴트 메시징",
+"Agent Console"  => "상담원 로그인",
+"Outgoing Calls"  => "아웃바운드 콜",
+"Campaigns"  => "아웃바운드 캠페인",
+"Do not Call List"  => "DNC 리스트",
+"External URLs"  => "외부URL(팝업)",
+"Ingoing Calls"  => "인바운드 콜",
+"Queues"  => "인바운드 대기열",
+"Clients"  => "고객정보",
+"Ingoing Campaigns"  => "인바운드 캠페인",
+"Agent Options"  => "상담원 옵션",
+"Agents"  => "상담원",
+"ECCP Users"  => "DCCP 사용자",
+"Callback Extensions"  => "내선사용 상담원",
+"Breaks"  => "일시정지",
+"Forms"  => "템플릿(상담기록)",
+"Form Designer"  => "템플릿",
+"Form Preview"  => "템플릿 미리보기",
+"Reports Break"  => "일시정지 통계",
+"Calls Detail"  => "통화상세정보",
+"Calls per hour"  => "시간별 통계",
+"Calls per Agent"  => "상담원별 통계",
+"Hold Time"  => "보류시간 통계",
+"Login Logout"  => "로그인/로그아웃 통계",
+"Ingoing Calls Success"  => "대기열별 완료/포기",
+"Graphic Calls per hour"  => "시간별 콜 통계(그래픽제공)",
+"Agent Information"  => "상담원별 상세정보",
+"Agents Monitoring"  => "상담원 모니터링",
+"Trunks used per hour"  => "시간별 트렁크 통계",
+"Incoming calls monitoring"  => "대기열별 콜 상태",
+"Campaign monitoring"  => "캠페인 모니터링",
+"Configuration"  => "환경 설정",
+"Downloads"  => "다운로드",
+"Agent"  => "상담원",
+"Customer"  => "고객",
+"VoIP Provider"  => "인터넷회선",
+"Admin"  => "관리자",
+"Calling Cards"  => "콜링카드",
+"Build Module"  => "모듈 빌드",
+"Delete Module"  => "모듈 삭제",
+"Language Admin"  => "모듈 언어",
+"Providers Accounts"  => "얼쑤트렁크",
+"Settings"  => "내선 설정",
+"Firewall Rules" => "방화벽 룰",
+"Define Ports"  => "포트 설정",
+"Port Knocking Interfaces"  => "Interfaces Golpeo de Puertos",
+"Port Knocking Users"  => "Usuarios Golpeo de Puertos",
+"Firewall"  => "방화벽",
+"Audit"  => "웹로그",
+"Weak Keys"  => "취약점검사",
+"Advanced Settings"  => "접근설정",
+"Email"  => "이메일",
+"Reports"  => "리포트",
+"My Extension"  => "내선 설정",
+"Security"  => "시스템로그",
+"Asterisk Logs"  => "엔진 로그",
+"Dashboard Applet Admin"  => "대쉬보드 설정",
+"Dashboard"  => "대쉬보드"
+);
+?>

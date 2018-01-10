@@ -1,0 +1,27 @@
+<module>
+	<rawname>javassh</rawname>
+	<repo>extended</repo>
+	<name>Java SSH</name>
+	<version>2.11.2</version>
+	<publisher>Schmooze Com Inc</publisher>
+	<license>AGPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
+	<category>Admin</category>
+	<description>Provides a Java applet to access the system shell using SSH.</description>
+	<menuitems>
+		<javassh>Java SSH</javassh>
+	</menuitems>
+	<changelog>
+		*2.11.2* Publisher and licensing
+		*2.11.1* Replace Java SSH Client with one that works, and is signed.
+		*2.11.0.0* bump version
+		*2.10.0.1* #5478
+		*2.10.0.0* new version changes
+		*2.9.0.0* 2.9 Update
+	</changelog>
+  <location></location>
+  <md5sum></md5sum>
+  <supported>
+    <version>2.10</version>
+  </supported>
+</module>

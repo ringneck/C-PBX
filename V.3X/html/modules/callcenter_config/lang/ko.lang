@@ -1,0 +1,62 @@
+<?php
+/* vim: set expandtab tabstop=4 softtabstop=4 shiftwidth=4:
+   Codificación: UTF-8
+  +----------------------------------------------------------------------+
+  | Elastix version 1.2                                                  |
+  | http://www.elastix.com                                               |
+  +----------------------------------------------------------------------+
+  | Copyright (c) 2006 Palosanto Solutions S. A.                         |
+  +----------------------------------------------------------------------+
+  | Cdla. Nueva Kennedy Calle E 222 y 9na. Este                          |
+  | Telfs. 2283-268, 2294-440, 2284-356                                  |
+  | Guayaquil - Ecuador                                                  |
+  | http://www.palosanto.com                                             |
+  +----------------------------------------------------------------------+
+  | The contents of this file are subject to the General Public License  |
+  | (GPL) Version 2 (the "License"); you may not use this file except in |
+  | compliance with the License. You may obtain a copy of the License at |
+  | http://www.opensource.org/licenses/gpl-license.php                   |
+  |                                                                      |
+  | Software distributed under the License is distributed on "AS IS"     |
+  | basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See  |
+  | the License for the specific language governing rights and           |
+  | limitations under the License.                                       |
+  +----------------------------------------------------------------------+
+  | The Original Code is: Elastix Open Source.                           |
+  | The Initial Developer of the Original Code is PaloSanto Solutions    |
+  |                                                                      |
+  | Translate by: Alex Villacís Lasso                                    |
+  | Email: a_villacis@palosanto.com                                      |
+  +----------------------------------------------------------------------+
+  $Id: en.lang,v 1.7 2008/02/18 09:49:00 a_villacis Exp $ */
+global $arrLangModule;
+$arrLangModule=array(
+"Configuration" => "환경설정",
+'Password and confirmation do not match.' => '입력한 비밀번호가 서로 맞지 않습니다',
+'Could not save changes!' => '저장되지 않았습니다!',
+'Could not commit changes!' => '변경되지 않았습니다!',
+'Asterisk Server' => 'D-PBX Server',
+'Asterisk Login' => 'D-PBX DTI Login',
+'Asterisk Password' => 'D-PBX DTI Password',
+'Asterisk Password (confirm)' => 'D-PBX DTI Password (confirm)',
+'Short Call Threshold' => '최소통화시간 (Short Call Threshold)',
+'Answering delay' => '응답대기시간 (Answering delay)',
+'Enable dialer debug' => '다이얼러 디버그 활성화',
+'Dump all received Asterisk events' => '콜 이벤트 덤프',
+'Running' => '실행중',
+'Stopped' => '정지',
+'Start' => '다이얼러 실행',
+'Stop' => '다이얼러 정지',
+'Internal DB error' => '데이터베이스 에러',
+'Dialer Status' => '다이얼러 상태',
+'Current Status' => '현재상태',
+'Enable overcommit of outgoing calls' => 'Enable overcommit of outgoing calls',
+'AMI Session Duration' => 'DTI 세션시간 (0 for persistent session)',
+'Service percent' => '서비스레벨 퍼센트',
+'Enable predictive dialer behavior' => 'Enable predictive dialer behavior',
+'Per-call dial timeout' => '발신 타임아웃(1콜 마다)',
+'Agent inactivity timeout' => '상담원 대기 타임아웃시간 (Agent inactivity timeout)',
+'Asterisk Connection' => 'D-PBX DTI 커넥션',
+'Dialer Parameters' => '다이얼러 파라미터 설정',
+);
+?>

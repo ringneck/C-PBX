@@ -1,0 +1,18 @@
+<?php
+global $arrLangModule; 
+ $arrLangModule = array(
+"List Calls"     => "List Calls",
+"Queue"          => "대기열",
+"Successful"     => "완료",
+"Left"           => "포기",
+"Time Hopes"     => "보류시간",
+"Find"           => "검색",
+"Date Init"      => "시작일",
+"Date End"       => "종료일",
+"Total Calls"    => "전체 콜 수",
+"Error"          => "에러",
+"Total"          => "전체",
+"Error when connecting to database"          => "Error when connecting to database",
+"Error when creating object paloSantoReportsCalls" => "Error when creating object paloSantoReportsCalls",
+);
+?>

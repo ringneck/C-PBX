@@ -1,0 +1,58 @@
+<?php
+/* vim: set expandtab tabstop=4 softtabstop=4 shiftwidth=4:
+  Codificación: UTF-8
+  +----------------------------------------------------------------------+
+  | Elastix version 0.5                                                  |
+  | http://www.elastix.org                                               |
+  +----------------------------------------------------------------------+
+  | Copyright (c) 2006 Palosanto Solutions S. A.                         |
+  +----------------------------------------------------------------------+
+  | Cdla. Nueva Kennedy Calle E 222 y 9na. Este                          |
+  | Telfs. 2283-268, 2294-440, 2284-356                                  |
+  | Guayaquil - Ecuador                                                  |
+  | http://www.palosanto.com                                             |
+  +----------------------------------------------------------------------+
+  | The contents of this file are subject to the General Public License  |
+  | (GPL) Version 2 (the "License"); you may not use this file except in |
+  | compliance with the License. You may obtain a copy of the License at |
+  | http://www.opensource.org/licenses/gpl-license.php                   |
+  |                                                                      |
+  | Software distributed under the License is distributed on an "AS IS"  |
+  | basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See  |
+  | the License for the specific language governing rights and           |
+  | limitations under the License.                                       |
+  +----------------------------------------------------------------------+
+  | The Original Code is: Elastix Open Source.                           |
+  | The Initial Developer of the Original Code is PaloSanto Solutions    |
+  +----------------------------------------------------------------------+
+  $Id: ko.lang,v 1.6 2007/09/05 00:36:42 gcarrillo Exp $ */
+global $arrLangModule;
+$arrLangModule=array(
+"Monitoring" => "통화 녹취",
+"Date" => "날짜",
+"Time" => "시간",
+"Source" => "발신",
+"Destination" => "수신",
+"Duration" => "통화시간",
+"Agent" => "상담원",
+"Download" => "다운로드",
+"Listen" => "듣기",
+"Type" => "추가옵션",
+"Message" => "녹취파일",
+"Start_Date" => "시작날짜",
+"End_Date" => "종료날짜",
+"message_alert" => "정말 통화 녹취 파일을 삭제하시겠습니까?",
+"no_extension" => "현재 계정과 연동된 내선이 없습니다  내선을 연동 하시려면 <a href=\"javascript: openWindow('index.php?menu=userlist&amp;action=edit_userExtension&amp;rawmode=yes');\">여기</a>를 클릭하세요",
+"no_file" => "파일을 찾을수가 없습니다!",
+"Outgoing" => "발신",
+"Incoming" => "수신",
+"Queue" => "대기열",
+"Group" => "그룹",
+"unknown" => "Unknown",
+"delete_file_error" => "At least one of files selected cannot be deleted because it no exists",
+"contact_admin" => "There is no extension number associated with the current user. Please contact the administrator to assign it an extension",
+"You are not authorized to download this file" => "다운로드 권한이 없습니다",
+"You are not authorized to listen this file" => "듣기 권한이 없습니다",
+"You are not authorized to delete any records" => "삭제 권한이 없습니다"
+);
+?>

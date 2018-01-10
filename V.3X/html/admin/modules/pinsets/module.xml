@@ -1,0 +1,42 @@
+<module>
+	<rawname>pinsets</rawname>
+	<repo>standard</repo>
+	<name>PIN Sets</name>
+	<version>2.11.0.9</version>
+	<publisher>Schmooze Com Inc</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<category>Settings</category>
+	<description>Allow creation of lists of PINs (numbers for passwords) that can be used by other modules (eg, trunks).</description>
+	<changelog>
+		*2.11.0.9* FREEPBX-8478 Add a label to pinset macro
+		*2.11.0.8* FREEPBX-7745 Wording consistency: add password Set
+		*2.11.0.7* FREEPBX-7908 readjust priorities
+		*2.11.0.6* #7885
+		*2.11.0.5* #1953
+		*2.11.0.4* Include license file
+		*2.11.0.3* Update to use ::create() call.
+		*2.11.0.2* Fix pinsets_get_config hook error
+		*2.11.0.1* #6653
+		*2.11.0.0* method priority for pinset pro
+		*2.10.0.2* #5597
+		*2.10.0.1* #5478
+		*2.10.0.0* new version changes
+		*2.9.0.1* removed duplicate functions
+		*2.9.0.0* 2.9 Update
+	</changelog>
+	<menuitems>
+		<pinsets>PIN Sets</pinsets>
+	</menuitems>
+	<supported>
+		<version>2.10</version>
+	</supported>
+	<depends>
+		<module>core</module>
+	</depends>
+	<location>release/2.11/pinsets-2.11.0.1.tgz</location>
+	<methods>
+		<get_config pri="481">pinsets_get_config</get_config>
+	</methods>
+	<md5sum>7b1f3c1cd25ea74837a7a20034a2a416</md5sum>
+</module>

@@ -1,0 +1,28 @@
+<module>
+	<rawname>fw_langpacks</rawname>
+	<modtype>framework</modtype>
+	<repo>extended</repo>
+	<name>FreePBX Localization Updates</name>
+	<version>2.11.2</version>
+	<publisher>Schmooze Com Inc</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<changelog>
+		*2.11.2* 3/9/2014
+		*2.11.1.1* Include license file
+		*2.11.1.0* Additions and Updates to Japanese and Russian, Thanks to coverup0204 and ded. Many Many Thanks to coverup0204 for all of the hours of work and support
+		*2.11.0.0* bump version
+		*2.10.0.0* pull in updated languages
+		*2.9.0.1* #4404
+		*2.9.0.0* language updates
+	</changelog>
+	<description>
+		This module provides a facility to install new and updated localization translations for all components in FreePBX. Localization i18n translations are still kept with each module and other components such as the User Portal (ARI). This provides an easy ability to bring all components up-to-date without the need of publishing dozens of modules for every minor change. The localization updates used will be the latest available for all modules and will not consider the current version you are running.
+	</description>
+	<category>Admin</category>
+	<location>release/2.11/fw_langpacks-2.11.0.0.tgz</location>
+	<md5sum>ae8a0cc2d7ac42f348e382069a5aa372</md5sum>
+	<supported>
+		<version>2.11</version>
+	</supported>
+</module>

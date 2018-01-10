@@ -1,0 +1,39 @@
+<module>
+	<rawname>recordings</rawname>
+	<repo>standard</repo>
+	<name>Recordings</name>
+	<version>3.4.0.3</version>
+	<publisher>Schmooze Com Inc</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<canuninstall>no</canuninstall>
+	<category>Admin</category>
+	<description>Creates and manages system recordings, used by many other modules (eg, IVR).</description>
+	<changelog>
+		*3.4.0.3* FREEPBX-7399 Made sorting and delete standards compliant
+		*3.4.0.2* Diverge Track
+		*3.3.11.9* Replace select/drop boxes with autocomplete box
+		*3.3.11.8* use AMPASTERISKGROUP, don't hardcode
+		*3.3.11.7* #5654
+		*3.3.11.6* cleanup empty return value
+		*3.3.11.5* #5478
+		*3.3.11.4* #5463
+		*3.3.11.3* Categorization changes
+		*3.3.11.2* #4001
+		*3.3.11.1* #4740
+		*3.3.11.0* #4651, #4653, #4579
+		*3.3.10.3* #4604 (Security Bug)
+		*3.3.10.2* #4568 Security Patch
+	</changelog>
+	<menuitems>
+		<recordings>System Recordings</recordings>
+	</menuitems>
+	<depends>
+		<version>2.5.0alpha1</version>
+	</depends>
+	<supported>
+		<version>2.11</version>
+	</supported>
+	<location>release/2.11/recordings-3.3.11.9.tgz</location>
+	<md5sum>9e52d36bf0e8e680c7c112bd3ba4edde</md5sum>
+</module>

@@ -1,0 +1,142 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language for phpagiconf
+# Copyright (C) 2009, 2010, 2011 Mikael Carlsson
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreePBX phpagi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-23 09:52+0000\n"
+"PO-Revision-Date: 2011-03-20 00:00+0100\n"
+"Last-Translator: Mikael Carlsson <mickecamino@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+
+msgid "Error writing the phpagi.conf file."
+msgstr "Fel vid skrivning till filen phpagi.conf"
+
+msgid "PHPAGI Config:"
+msgstr "Konfiguration för PHPAGI:"
+
+msgid "Main config:"
+msgstr "Huvudkonfiguration:"
+
+msgid "Debug:"
+msgstr "Avlusning:"
+
+msgid "Enable PHPAGI debugging."
+msgstr "Aktivera avlusning för PHPAGI."
+
+msgid "false"
+msgstr "Ja"
+
+msgid "true"
+msgstr "Nej"
+
+msgid "Error handler:"
+msgstr "Felhanterare:"
+
+msgid "Use internal error handler."
+msgstr "Använd den interna felhanteraren."
+
+msgid "Mail errors to:"
+msgstr "E-posta fel till:"
+
+msgid "Email where the errors will be sent."
+msgstr "E-postadressen felen ska skickas till."
+
+msgid "Hostname of the server:"
+msgstr "Datornamnet för servern:"
+
+msgid "Hostname of this server."
+msgstr "Datornamnet för denna server."
+
+msgid "Temporary directory:"
+msgstr "Temporär katalog:"
+
+msgid "Temporary directory for storing temporary output."
+msgstr "Temporär katalog för lagring av temporära filer."
+
+msgid "Festival config:"
+msgstr "Konfiguration för Festival:"
+
+msgid "Path to text2wave:"
+msgstr "Sökväg till text2wave:"
+
+msgid "Path to text2wave binary."
+msgstr "Sökvägen till programmet text2wave."
+
+msgid "Asterisk API settings:"
+msgstr "Inställningar för Asterisk API:"
+
+msgid "Server:"
+msgstr "Server:"
+
+msgid "Server to connect to."
+msgstr "Server att koppla upp mot."
+
+msgid "Port:"
+msgstr "Port:"
+
+msgid "Port to connect to manager."
+msgstr "Den port som ska användas för att koppla mot hanteraren."
+
+msgid "Fast AGI config:"
+msgstr "Konfiguration för Fast AGI:"
+
+msgid "setuid:"
+msgstr "setuid:"
+
+msgid "Drop privileges to owner of script."
+msgstr "Sätt rättighet till ägaren av skriptet."
+
+msgid "Basedir:"
+msgstr "Baskatalog:"
+
+msgid "Path to AGI scripts folder."
+msgstr "Sökväg till mappen för AGI-skripten."
+
+msgid "Cepstral config:"
+msgstr "Konfiguration för Cepstral:"
+
+msgid "Swift path:"
+msgstr "Sökväg för Swift:"
+
+msgid "Path to cepstral TTS binary."
+msgstr "Sökväg till programmet cepstral TTS."
+
+msgid "Cepstral voice:"
+msgstr "Röst för Cepstral:"
+
+msgid "TTS Voice used."
+msgstr "Den TTS-röst som ska användas."
+
+msgid "Submit Changes"
+msgstr "Spara ändringar"
+
+msgid "PHPAGI Config"
+msgstr "Konfiguration för PHPAGI"
+
+msgid "Settings"
+msgstr ""
+
+#~ msgid "System Administration"
+#~ msgstr "Systemadministration"

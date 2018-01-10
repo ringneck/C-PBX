@@ -1,0 +1,134 @@
+<?php
+/* vim: set expandtab tabstop=4 softtabstop=4 shiftwidth=4:
+  Codificación: UTF-8
+  +----------------------------------------------------------------------+
+  | Elastix version 0.5                                                  |
+  | http://www.elastix.com                                               |
+  +----------------------------------------------------------------------+
+  | Copyright (c) 2006 Palosanto Solutions S. A.                         |
+  +----------------------------------------------------------------------+
+  | Cdla. Nueva Kennedy Calle E 222 y 9na. Este                          |
+  | Telfs. 2283-268, 2294-440, 2284-356                                  |
+  | Guayaquil - Ecuador                                                  |
+  | http://www.palosanto.com                                             |
+  +----------------------------------------------------------------------+
+  | The contents of this file are subject to the General Public License  |
+  | (GPL) Version 2 (the "License"); you may not use this file except in |
+  | compliance with the License. You may obtain a copy of the License at |
+  | http://www.opensource.org/licenses/gpl-license.php                   |
+  |                                                                      |
+  | Software distributed under the License is distributed on an "AS IS"  |
+  | basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See  |
+  | the License for the specific language governing rights and           |
+  | limitations under the License.                                       |
+  +----------------------------------------------------------------------+
+  | The Original Code is: Elastix Open Source.                           |
+  | The Initial Developer of the Original Code is PaloSanto Solutions    |
+  +----------------------------------------------------------------------+
+  $Id: es.lang,v 1.2 2007/08/09 00:31:28 jmartinez Exp $ */
+global $arrLangModule;
+$arrLangModule = array(
+'Agent Console' => '상담원정보(디바이스-이름)',
+'Agent log-in failed!' => '상담원 로그인이 실패했습니다.!',
+'Agent login process not started' => '상담원 로그인 프로세스가 종료되었습니다.',
+'Agent log-in terminated.' => '상담원 로그인이 종료되었습니다.',
+'Agent not authorized for ECCP - ECCP password not set' => 'Agent not authorized for ECCP - ECCP password not set',
+'Agent not found' => '상담원을 찾을수가 없습니다.',
+'Agent not handling an incoming call' => 'Agent not handling an incoming call',
+'Agent Number' => '상담원번호',
+'Call at end of campaign' => '캠페인 종료',
+'Campaign' => '캠페인',
+'Call Form' => '통화메모',
+'Call Information' => '통화정보',
+'Call Script' => '통화스크립트',
+'Internal Call ID' => '내부 콜 ID',
+'Call successfully scheduled' => 'Call successfully scheduled',
+'Cannot start agent login' => '로그인이 실패되었습니다',
+'Wrong password.' => '비밀번호가 다릅니다',
+'Confirm contact' => 'Confirm contact',
+'Connected to call' => '통화가 연결되었습니다',
+'Contact' => '고객',
+'Contact successfully confirmed' => 'Contact successfully confirmed',
+'Dismiss' => '취소',
+'End Break' => '일시정지 끝내기',
+'End date' => 'End date',
+'End Hold' => 'End Hold',
+'End session' => '세션종료(로그아웃)',
+'End time' => '종료시간',
+'Enter' => '로그인',
+'Error while confirming contact' => 'Error while confirming contact',
+'Error while hanging up call' => 'Error while hanging up call',
+'Error while logging out agent' => 'Error while logging out agent',
+'Error while saving form data' => 'Error while saving form data',
+'Error while scheduling call' => 'Error while scheduling call',
+'Error while starting break' => 'Error while starting break',
+'Error while stopping break' => 'Error while stopping break',
+'Error while transferring call' => 'Error while transferring call',
+'Extension' => '내선번호',
+'Failed to retrieve agent password' => 'Failed to retrieve agent password',
+'Form data successfully saved' => 'Form data successfully saved',
+'Hangup' => '끊기',
+'Hold' => '보류',
+'Invalid agent number' => '잘못된 상담원 번호',
+'Invalid extension number' => '잘못된 내선 번호',
+'Invalid or incomplete form data' => 'Invalid or incomplete form data',
+'Invalid or incomplete schedule' => 'Invalid or incomplete schedule',
+'Invalid or missing break ID' => 'Invalid or missing break ID',
+'Invalid or missing contact ID' => 'Invalid or missing contact ID',
+'Invalid or missing extension to transfer' => 'Invalid or missing extension to transfer',
+'Logging agent in. Please wait...' => '상담원 로그인중입니다 잠시만 기다려주세요...',
+'Names' => 'Names',
+'No information available for this call' => 'No information available for this call',
+'No active call' => '통화중인 호가 없습니다!',
+'(no matching contacts)' => '(no matching contacts)',
+'(사용가능한 스크립트가 없습니다.)' => '(No script available)',
+'On break' => '일시정지 중 ',
+'Phone number' => '전화번호',
+'Please select your agent number and your extension' => '상담원 번호와 사용할 내선 번호를 선택하세요',
+'Save data' => '데이타 저장',
+'Schedule at date' => '재발신등록',
+'Schedule call' => '스케줄 발신',
+'Schedule' => '스케줄',
+'Schedule to same agent' => 'Schedule to same agent',
+'Select break type' => '일시정지 선택',
+'Select extension to transfer to' => 'Select extension to transfer to',
+'Specified agent already connected to extension' => 'Specified agent already connected to extension',
+'Start and end date are required for date scheduling.' => 'Start and end date are required for date scheduling.',
+'Start date' => '시작일',
+'Start time' => '시작시간',
+'Take Break' => '일시정지',
+'There are no agents available. At least one agent is required for agent login.' => 'There are no agents available. At least one agent is required for agent login.',
+'There are no extensions available. At least one extension is required for agent login.' => 'There are no extensions available. At least one extension is required for agent login.',
+'Transfer' => '돌려주기(착신전환)',
+'Unable to fetch break types' => 'Unable to fetch break types',
+'Unable to hangup call' => 'Unable to hangup call',
+'Unable to read call information' => 'Unable to read call information',
+'Unable to read queue script' => 'Unable to read queue script',
+'Unable to save form data' => 'Unable to save form data',
+'Unable to schedule call' => 'Unable to schedule call',
+'Unable to set contact' => 'Unable to set contact',
+'Unable to start break' => 'Unable to start break',
+'Unable to stop break' => 'Unable to stop break',
+'Unable to transfer call' => '돌려주기(착신전환)이 실패했습니다, 관리자에게 문의하세요',
+'(unavailable)' => '(unavailable)',
+'VTiger CRM' => 'VTiger CRM',
+'Welcome to Agent Console' => '상담원 로그인 화면입니다 (헤드셋이 필요한 온라인 대기모드)',
+
+'First name' => '성',
+'Last name' => '이름',
+'National ID' => '고객 ID',
+'External site' => '외부URL',
+
+'Blind transfer' => '무조건 돌려주기',
+'Attended transfer' => '문의후 돌려주기',
+'Password' => '비밀번호',
+'Callback Extension' => '상담원 내선번호',
+'Callback Login' => '내선사용 상담원 로그인',
+'Agent ' => '상담원 ',
+' Logged in' => ' 로그인 되었습니다',
+'Call' => '통화',
+'Information' => '통화정보',
+'Script' => '통화스크립트',
+'Waiting for call'=>'통화 대기중',
+);
+?>

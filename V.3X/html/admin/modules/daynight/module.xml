@@ -1,0 +1,48 @@
+<module>
+	<rawname>daynight</rawname>
+	<repo>standard</repo>
+	<name>Call Flow Control</name>
+	<version>2.11.0.6</version>
+	<publisher>Schmooze Com Inc</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<category>Applications</category>
+	<description>
+		Call Flow manual toggle control - allows for two destinations to be chosen and provides a feature code
+		that toggles between the two destinations.
+	</description>
+	<changelog>
+		*2.11.0.6* Revert 13 merge mistake
+		*2.11.0.5* FREEPBX-8689 - All Call Flow Toggle not working
+		*2.11.0.4* Part fix for #6923 language not being set.
+		*2.11.0.3* Add license file
+		*2.11.0.2* Add a * to toggle all extension feature codes
+		*2.11.0.1* Add feature code to toggle all
+		*2.10.0.0* new version changes
+		*2.9.0.3* #4993
+		*2.9.0.2* #4740, #4758, #4768
+		*2.9.0.1* #4651, #4653, #4655
+		*2.9.0.0* #4636
+		*2.8.0.0* #4309
+		*2.7.0.0* spelling errors, localizations
+		*2.6.0.2* #3585 custom recordings
+		*2.6.0.1* init tabindex
+		*2.6.0.0* #3650, #3651
+	</changelog>
+	<depends>
+		<version>2.5.0alpha1</version>
+	</depends>
+	<menuitems>
+		<daynight needsenginedb="yes">Call Flow Control</daynight>
+	</menuitems>
+	<popovers>
+		<daynight>
+			<display>daynight</display>
+		</daynight>
+ 	</popovers>
+	<supported>
+		<version>2.10</version>
+	</supported>
+	<location>release/2.11/daynight-2.11.0.0.tgz</location>
+	<md5sum>3ff349034d789c2706c8937bb0776546</md5sum>
+</module>

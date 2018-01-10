@@ -1,0 +1,52 @@
+<?php
+/* vim: set expandtab tabstop=4 softtabstop=4 shiftwidth=4:
+   Codificación: UTF-8
+  +----------------------------------------------------------------------+
+  | Elastix version 2.3                                                  |
+  | http://www.elastix.org                                               |
+  +----------------------------------------------------------------------+
+  | Copyright (c) 2006 Palosanto Solutions S. A.                         |
+  +----------------------------------------------------------------------+
+  | Cdla. Nueva Kennedy Calle E 222 y 9na. Este                          |
+  | Telfs. 2283-268, 2294-440, 2284-356                                  |
+  | Guayaquil - Ecuador                                                  |
+  | http://www.palosanto.com                                             |
+  +----------------------------------------------------------------------+
+  | The contents of this file are subject to the General Public License  |
+  | (GPL) Version 2 (the "License"); you may not use this file except in |
+  | compliance with the License. You may obtain a copy of the License at |
+  | http://www.opensource.org/licenses/gpl-license.php                   |
+  |                                                                      |
+  | Software distributed under the License is distributed on "AS IS"     |
+  | basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See  |
+  | the License for the specific language governing rights and           |
+  | limitations under the License.                                       |
+  +----------------------------------------------------------------------+
+  | The Original Code is: Elastix Open Source.                           |
+  | The Initial Developer of the Original Code is PaloSanto Solutions    |
+  |                                                                      |
+  | Translated by: YOUR_NAME_HERE                                        |
+  | Email: youremail@example.org                                         |
+  +----------------------------------------------------------------------+
+  $Id: ko.lang,v 1.7 2013-07-31 17:32:20 username Exp $ */
+global $arrLangModule;
+$arrLangModule=array(
+	"Activated" => "활성화",
+	"System Resources" => "시스템리소스",
+	"Processes Status" => "프로세스현황",
+	"Hard Drives" => "하드드라이브",
+	"Performance Graphic" => "퍼포먼스그래픽스",
+	"News" => "뉴스",
+	"Communication Activity" => "전체 콜 현황",
+	"Calendar" => "달력",
+	"Calls" => "콜",
+	"Emails" => "이메일",
+	"Faxes" => "팩스",
+	"Voicemails" => "음성사서함",
+	"Telephony Hardware" => "통신하드웨어",
+	"Check All" => "모두 선택",
+	"Applet" => "애플릿",
+	"Dashboard Applet Admin" => "대쉬보드 관리자 애플릿",
+        "You must have at least one applet activated" => "최소 하나의 애플릿은 선택하셔야 합니다",
+);
+?>
