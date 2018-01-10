@@ -1,0 +1,777 @@
+/* Estilos para login de sistema */
+body.elx-blackmin-login
+{
+    font-family: verdana, arial, helvetica, sans-serif;
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 9pt;
+    margin: 0;
+}
+body.elx-blackmin-login>div.logo
+{
+	position: relative;
+	height: 150px;
+}
+body.elx-blackmin-login>form
+{
+	position: relative;
+}
+body.elx-blackmin-login>form>div
+{
+    border: 1px solid #ffffff;
+	position: relative;
+    margin-left: auto;
+    margin-right: auto;
+	width: 498px;
+	height: 190px;
+}
+body.elx-blackmin-login>form>div>div
+{
+	text-align: center;
+}
+body.elx-blackmin-login>form>div>div>div
+{
+    position: relative;
+    min-height: 32px;
+}
+body.elx-blackmin-login>form>div>div.title
+{
+    text-align: left;
+	background: #555555;
+	font-size: 11pt;
+	font-weight: bold;
+    padding: 4px;
+}
+body.elx-blackmin-login>form>div>div div.label
+{
+    position: absolute;
+    left: 0;
+    width: 188px;
+    text-align: right;
+    height: 32px;
+}
+body.elx-blackmin-login>form>div>div div.input
+{
+    position: absolute;
+    right: 0;
+    width: 310px;
+    text-align: left;
+    height: 32px;
+}
+
+/* Los siguientes estilos son básicos para la apariencia de la página */
+body
+{
+    font-family: verdana, arial, helvetica, sans-serif;
+    background: #FFFFFF;
+    color: #000000;
+    font-size: 81.25%;
+    margin: 0;
+}
+
+input, button
+{
+    color: #333333;
+    background: #fafafa;
+    border-top: 1px #999999 solid;
+    border-left: 1px #999999 solid;
+    border-bottom: 1px #cccccc solid;
+    border-right: 1px #cccccc solid;
+    font-family: verdana, arial, helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font-size: 1em;
+    min-height: 1.5em;
+}
+textarea
+{
+    color: #333333;
+    background: #fafafa;
+    border-top: 1px #999999 solid;
+    border-left: 1px #999999 solid;
+    border-bottom: 1px #cccccc solid;
+    border-right: 1px #cccccc solid;
+    font-family: verdana, arial, helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font-size: 1em;
+}
+
+select
+{
+	color: #333333;
+    background: #fafafa;
+    border-top: 1px #999999 solid;
+    border-left: 1px #999999 solid;
+    border-bottom: 1px #cccccc solid;
+    border-right: 1px #cccccc solid;
+    font-family: verdana, arial, helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font-size: 1em;
+    min-height: 1.8em;
+}
+
+input.button, input.submit, button.button
+{
+	border: 1px solid #999999;
+	background-color: #eeeeee;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    color: #444444;
+    min-height: 1.85em;
+}
+input:focus, textarea:focus, select:focus
+{
+    background-color: #ffffff;
+    border-color: #000000;
+}
+INPUT:disabled {
+	background-color: #F2F2F2;
+	color: #E6E6E6;
+	border: #E6E6E6 1px solid;
+}
+
+#elx-blackmin-topnav-toolbar
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+    height: 36px;
+    color: #ffffff;
+    background: #000000;
+    font-size: 1em;
+    font-weight: bold;
+}
+#elx-blackmin-wrap
+{
+	position: absolute;
+	left: 0;
+	bottom: 35px;
+	right: 0;
+	top: 36px;
+	overflow: auto;
+}
+ul.elx-blackmin-topnav
+{
+	list-style: outside none none;
+	padding-left: 0;
+	margin: 0;
+}
+ul.elx-blackmin-topnav > li
+{
+    position: relative;
+    display: block;
+    float: left;
+}
+ul.elx-blackmin-topnav > li.navButton
+{
+	float: right;
+	background: #777777;
+	padding: 8px;
+	border-left: 1px #666666 solid;
+	position: static;
+}
+ul.elx-blackmin-topnav > li.navButton:hover
+{
+	background: #888888;
+}
+#elx-blackmin-module-title
+{
+	padding: 7px;
+}
+#elx-blackmin-footerbox
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 25px;
+    padding:10px 0px 0px 0px;
+    color: #444;
+    text-shadow: 1px 1px #ccc;
+    text-align: center;
+    background: url(images/bgfooter.png) repeat #ccc;
+}
+#elx-blackmin-footerbox > a
+{
+	color: #444;
+	text-decoration: none;
+}
+body.chat-visible #elx-blackmin-topnav-toolbar,
+body.chat-visible #elx-blackmin-wrap,
+body.chat-visible #elx-blackmin-footerbox
+{
+    right: 280px;
+}
+
+body > div#chat
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 280px;
+    background-color: black;
+    color: #7f8186;
+    display: none;
+}
+body.chat-visible > div#chat
+{
+    display: block;
+}
+
+#elx-blackmin-content-menu
+{
+    position: relative;
+    padding: 0;
+    color: #ffffff;
+    background: #000000;
+    font-size: 1em;
+    font-weight: bold;
+}
+#elx-blackmin-content-menu>img
+{
+    border: 0;
+    cursor: pointer;
+}
+
+/* Definición del menú de la página */
+@-webkit-keyframes elx-blackmin-menu-fadein
+{
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+@keyframes elx-blackmin-menu-fadein
+{
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+li.elx-blackmin-menu
+{
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+li.elx-blackmin-menu .raquo
+{
+	position: absolute;
+	right: 0;
+}
+li.elx-blackmin-menu li
+{
+	margin:    0px;
+	padding:   0px;
+	position:  relative;
+    line-height: normal;
+    white-space: nowrap;
+}
+li.elx-blackmin-menu a
+{
+    color: #bbbbbb;
+    text-decoration: none;
+    display: block;
+    padding: 5pt;
+}
+li.elx-blackmin-menu>div
+{
+	/* Los browsers modernos toman preferencia de background-color con rgba.
+	   En cambio IE8 ignora rgba y toma el color opaco en background. Esto
+	   permite un fallback en lugar de menús huecos en IE8. */
+    background: #000;
+	background-color: rgba(0, 0, 0, 0.83);
+    color: #bbbbbb;
+    position: absolute;
+    display: none;
+    z-index: 9; /* porque el fullcalendar event tiene un handle con zindex 8 */
+}
+li.elx-blackmin-menu>div>p
+{
+	margin:    0px;
+	padding:   5pt;
+}
+li.elx-blackmin-menu:hover>div
+{
+	display: block;
+    -webkit-animation: elx-blackmin-menu-fadein 0.3s;
+    animation: elx-blackmin-menu-fadein 0.3s;
+}
+li.elx-blackmin-menu ul
+{
+    list-style-type: none;
+    padding: 0;
+    min-width: 100%;
+}
+li.elx-blackmin-menu>div>ul ul
+{
+	display: none;
+}
+li.elx-blackmin-menu>div>ul li.selected
+{
+/*    font-weight: bold;*/
+}
+li.elx-blackmin-menu>div>ul li:hover
+{
+    background: #444444;
+}
+li.elx-blackmin-menu>div>ul li:hover>a
+{
+    color: #ffffff;
+}
+li.elx-blackmin-menu>div>ul li:hover>ul
+{
+    /* Los browsers modernos toman preferencia de background-color con rgba.
+       En cambio IE8 ignora rgba y toma el color opaco en background. Esto
+       permite un fallback en lugar de menús huecos en IE8. */
+    background: #000;
+    background-color: rgba(0, 0, 0, 0.83);
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    -webkit-animation: elx-blackmin-menu-fadein 0.3s;
+    animation: elx-blackmin-menu-fadein 0.3s;
+}
+li.navButton > a.fa-stack
+{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: #cccccc;
+}
+li.navButton > div
+{
+	position: absolute;
+	right: 0px;
+	top: 36px;
+	min-width: 220px;
+}
+
+div#chat *
+{
+    box-sizing: border-box;
+}
+div#chat > h2.chat-header
+{
+    font-size: 16px;
+    padding: 30px 35px;
+    line-height: 1;
+    margin: 0;
+    position: relative;
+    border-bottom: 1px solid #343a45;
+}
+div#chat > h2.chat-header > a.chat-close
+{
+    position: absolute;
+    font-size: 15px;
+    text-decoration: none;
+    top: 50%;
+    right: 25px;
+    margin-top: -7px;
+    color: #bec0c2;
+    -webkit-opacity: 0.5;
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    filter: alpna(opacity=50);
+}
+div#chat > div#elastix-panels > h3
+{
+    border-top: 0px;
+    padding: 10px 15px;
+    margin: 0px;
+}
+div#chat > div#elastix-panels > h3.ui-state-hover
+{
+    color: #fff;
+    background-color: rgba(69, 74, 84, 0.5);
+}
+div#chat > div#elastix-panels > h3,
+div#chat > div#elastix-panels > div
+{
+    border-radius: 0px;
+    background: none;
+    /*color: #7f8186;*/
+    color: #999;
+    font-size: 12px;
+    border-color: rgba(69, 74, 84, 0.7);
+}
+div#chat > div#elastix-panels > h3 i
+{
+  position: relative;
+  font-size: 15px;
+  margin-right: 5px;
+
+  top: 1px;
+  display: inline-block;
+}
+div#chat > div#elastix-panels > div
+{
+    padding: 15px;
+}
+
+/* Definición del contenido de la página */
+#elx-blackmin-content
+{
+/*  La combinación de relative y overflow: auto daña los diálogos de jQueryUI */
+/*  position: relative;*/
+    margin: 4px;
+    padding: 3px 0px 10px 0px;
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    overflow: auto;
+}
+#elx-blackmin-content > div#message_error
+{
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+/* Grilla con controles de paloSantoGrid */
+form.elastix-standard-formgrid
+{
+	border-top: 1px solid #aaa;
+}
+form.form.elastix-standard-formgrid>div
+{
+	background: #bbbbbb;
+}
+form.elastix-standard-formgrid>div.controls
+{
+    position: relative;
+    height: 30px;
+    padding: 0px 0px 10px 0px;
+    margin: 0px;
+    background: #f0f0f0 url(../../../images/addons_header_row_bg.png) repeat-x top;
+    color: #444444;
+    border-bottom: 1px solid #aaa;
+}
+form.elastix-standard-formgrid>div.controls div.toolcell
+{
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    padding:10px 10px 0px 10px;
+    text-align:center;
+}
+form.elastix-standard-formgrid>div.controls div.toolaction
+{
+    float: left;
+    border-right: 1px solid #aaa;
+    height: 32px;
+    padding:8px 10px 0px 10px;
+    cursor: pointer;
+}
+form.elastix-standard-formgrid>div.controls div.toolaction:hover,
+form.elastix-standard-formgrid>div.controls div.export-background
+{
+    background: -moz-linear-gradient(center top , #777777, #999999);
+    background: -webkit-gradient(linear,0% 40%,0% 70%,from(#777),to(#999));
+    background: linear-gradient(center top , #777777, #999999);
+    border-color: #888888 !important;
+    color: #FFFFFF;
+}
+form.elastix-standard-formgrid>div.controls a,
+form.elastix-standard-formgrid>div.controls div.toolaction>input.neo-table-action,
+form.elastix-standard-formgrid>div.controls div.toolaction>button
+{
+    border:0px;
+    background-color:transparent;
+    cursor:pointer;
+    padding: 0px;
+    color:#444;
+    text-decoration:none;
+}
+form.elastix-standard-formgrid>div.controls div.exportmenu>div
+{
+    /* Véase notas en li.elx-blackmin-menu>div */
+    -moz-box-shadow: 0px 0px 1px #000000;
+    -webkit-box-shadow: 0px 0px 1px #000000;
+    -moz-border-radius: 0px 10px 10px 10px;
+    -webkit-border-radius: 0px 10px 10px 10px;
+    box-shadow: 0px 0px 1px #000000;
+    border-radius: 0px 10px 10px 10px;
+    padding: 5px;
+    background: none repeat scroll 0 0 #F7F7F7;
+    color: #000000;
+
+    position: absolute;
+    display: none;
+    z-index: 9; /* porque el fullcalendar event tiene un handle con zindex 8 */
+    left: 0px;
+    right: 0px;
+    top: 40px;
+    text-align: left;
+}
+form.elastix-standard-formgrid>div.controls div.exportmenu:hover>div
+{
+    display: block;
+    -webkit-animation: elx-blackmin-menu-fadein 0.3s;
+    animation: elx-blackmin-menu-fadein 0.3s;
+}
+form.elastix-standard-formgrid>div.controls div.exportmenu>div>ul
+{
+    list-style: outside none none;
+    padding-left: 0;
+    margin: 0;
+}
+form.elastix-standard-formgrid>div.controls div.exportmenu>div>ul>li:hover
+{
+    background: #f4fa58;
+}
+form.elastix-standard-formgrid>div.controls div.exportmenu>div>ul>li>a
+{
+    display: block;
+}
+form.elastix-standard-formgrid>div.controls div.navigation
+{
+    float: right;
+    border-left: 1px solid #aaa;
+}
+form.elastix-standard-formgrid>div#filter-row
+{
+    position: relative;
+    padding: 10px;
+    background: #dddddd;
+    color: #444444;
+
+    border-bottom: 1px solid #aaa;
+    display: none;
+}
+form.elastix-standard-formgrid>div.appliedfilters
+{
+    background-color: #FFFFFF;
+    min-height: 28px;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px solid #aaa;
+    position: relative;
+    float: none;
+    color: #444444;
+}
+form.elastix-standard-formgrid>div.appliedfilters>div
+{
+    background-color: #E7D8E3;
+    margin-left: 3px;
+    margin-right: 1px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1px solid #aaa;
+    border-radius:5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    height: 17px;
+    position: relative;
+    display: inline-block;
+}
+
+/* Tablas */
+table.elastix-standard-table
+{
+    border: 1px solid #999999;
+    margin: 0px;
+    border-collapse: collapse;
+}
+table.elastix-standard-table>thead,
+table.elastix-standard-table>tfoot
+{
+    background: #555555;
+    color: #eeeeee;
+}
+table.elastix-standard-table>thead>tr,
+table.elastix-standard-table>tfoot>tr
+{
+    height: 32px;
+}
+table.elastix-standard-table>thead>tr>th,
+table.elastix-standard-table>tfoot>tr>th
+{
+    padding: 4px;
+    text-align: left;
+}
+table.elastix-standard-table>thead>tr>th a.link_summary_off
+{
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+table.elastix-standard-table>thead>tr>th a.link_summary_on
+{
+  text-decoration: none;
+  color:#F5DEB3;
+  font-weight:bold;
+}
+table.elastix-standard-table>tbody>tr:hover
+{
+	background: #e0e0e0;
+}
+table.elastix-standard-table>tbody>tr>td
+{
+    text-indent: 5px;
+    border-bottom: 1px #b6b6b6 solid;
+    padding: 6px 6px 6px 6px;
+}
+table.elastix-standard-table>tbody>tr>td.table_data_last_row
+{
+    border-bottom: 1px #aaaaaa solid;
+    padding: 4px;
+}
+
+/* Formularios */
+.tabForm
+{
+	color: #aaaaaa;
+}
+.tabForm td
+{
+	padding: 4px;
+	color: #333333;
+}
+.required {
+    color: #ff0000;
+}
+table.table_navigation_text td
+{
+    padding: 4px;
+}
+
+form.elastix-standard-formgrid>table.elastix-standard-table
+{
+    width: 100%;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+/* Compatibilidad con funcionalidades requeridas */
+table.elastix-standard-table>thead>tr.filterForm
+{
+    color: #000000;
+
+    background-color: #fafafa;
+    background-image: url(../../images/bggrisForm.gif);
+    background-repeat: repeat-x;
+    background-position: top;
+}
+table.elastix-standard-table>thead>tr.filterForm td
+{
+    padding: 4px;
+}
+
+TD.menudescription {
+    color: #ffffff;
+    background: #000000;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+/*
+#viewDetailsRPMs{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000FF;
+    font-weight: normal;
+}
+*/
+
+.black_overlay{
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1001;
+    -moz-opacity: 0.4;
+    opacity:.40;
+    filter: alpha(opacity=40);
+}
+
+td a.link_summary_off{
+  text-decoration: none;
+  color:#000000;
+}
+
+td a.link_summary_on{
+  text-decoration: none;
+  color:#0000FF;
+  font-weight:bold;
+}
+
+/* Nuevo estilo */
+
+.neo-modal-elastix-popup-blockmask {
+    position:absolute;
+    z-index:10100;
+    background-color:#000;
+    top:0px;
+    left:0px;
+    display:none;
+}
+.neo-modal-elastix-popup-box {
+    position:fixed;
+    width:440px;
+    height:150px;
+    z-index:10200;
+    padding:20px 25px 20px 25px;
+    display:none;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background:url(/images/modalbox_bg.png) top left repeat-x #fff;
+    top: 50%;
+    left: 45%;
+   scrollbar-face-color: #6685CA;
+	scrollbar-highlight-color: #6685CA;
+	scrollbar-shadow-color: #6685CA;
+	scrollbar-3dlight-color:red;
+	scrollbar-arrow-color:#FFFFFF;
+	scrollbar-track-color:#E5E5E5;
+	scrollbar-drakshadow-color:#000000;
+}
+.neo-modal-elastix-popup-title {
+    position: absolute;
+    top:0px;
+    left:0px;
+    padding:10px 0px 0px 0px;
+    width:100%;
+    text-align:center;
+    text-shadow: rgba(255,255,255, 0.3) 0 1px 0px;
+    font: 13px Verdana, Arial,Helvetica,sans-serif;
+    color: #333;
+}
+.neo-modal-elastix-popup-close {
+    position: absolute;
+    top:12px;
+    right:10px;
+    width:18px;
+    height:15px;
+    background:url(../../images/bookmarks_equis.png) no-repeat;
+    cursor: pointer;
+}
+.neo-modal-elastix-popup-content {
+    position: relative;
+    top: 20px;
+}
+a.setadminpassword {
+	cursor: pointer;
+}
+a.register_link {
+    color: #FF0000;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+}

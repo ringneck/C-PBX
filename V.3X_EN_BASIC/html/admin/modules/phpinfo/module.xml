@@ -1,0 +1,22 @@
+<module>
+	<rawname>phpinfo</rawname>
+	<repo>extended</repo>
+	<name>PHP Info</name>
+	<version>2.11.0.1</version>
+	<publisher>FreePBX</publisher>
+	<license>GPLv2+</license>
+	<changelog>
+		*2.11.0.1* fix footer style
+		*2.11.0.0* bump version
+		*2.10.0.1* #5478 
+		*2.10.0.0* new version changes
+		*2.9.0.1* set repository
+		*2.9.0.0* 2.9 Update
+	</changelog>
+	<category>Reports</category>
+	<menuitems>
+		<phpinfo>PHP Info</phpinfo>
+	</menuitems>
+	<location>release/2.11/phpinfo-2.11.0.1.tgz</location>
+	<md5sum>589fe1848162d77c99c9a6542a6c13a5</md5sum>
+<supported><version>2.11</version></supported></module>

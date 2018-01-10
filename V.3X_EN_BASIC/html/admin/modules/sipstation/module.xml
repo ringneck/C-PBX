@@ -1,0 +1,71 @@
+<module>
+	<rawname>sipstation</rawname>
+	<repo>standard</repo>
+	<name>SIPSTATION</name>
+	<version>2.11.1.6</version>
+	<category>Connectivity</category>
+	<menuitems>
+		<sipstation beta="yes">SIPSTATION</sipstation>
+	</menuitems>
+	<description>
+		This module is used to configure, manage and troubleshoot your SIPSTATION(tm) FreePBX.com SIP trunks and DIDs. The license on this source code is NOT GPL Open Source, it is a proprietary Free to Use license.
+	</description>
+	<publisher>Schmooze Com Inc</publisher>
+	<license>Commercial</license>
+    <licenselink>http://literature.schmoozecom.com/EUA/FreePBXCommercialModule-EndUserAgreement.txt</licenselink>
+	<changelog>
+		*2.11.1.6* License update
+		*2.11.1.4* Add new 844 toll free route to our existing routes
+		*2.11.1.3* Allow users to set some custom settings. Sorry
+		*2.11.1.2* Accept remote configuration changes and messages from SIPStation Store
+		*2.11.1.1* Support for PHP 5.1.6 - 5.3
+		*2.11.1.0beta13* Ability to collapse and expand sections fixed
+		*2.11.1.0beta12* Updated PEST Library.
+		*2.11.1.0beta11* Works with Extension Routes module, Set CID and Set Emergency CID Broken Out
+		*2.11.1.0beta10* Added setting of E911 CID per did (if extension was selected as inbound route)
+		*2.11.1.0beta9* Cosmetic Changes
+		*2.11.1.0beta8* Automatic Route Creation
+		*2.11.1.0beta7* Cosmetic Fixes. Failover Fixes. DID Clickable links to inbound routes. Outbound Routes Generation Page
+		*2.11.1.0beta5* Additions
+		*2.11.1.0beta4* Fixes for AJAX and E911s
+		*2.11.1.0beta3* Too many DIDs issues resolved
+		*2.11.1.0beta2* GUI Changes
+		*2.11.1.0beta1* New: Set E911 Address, Set Failovers, Set All Destinations, Completely New Backend Fixed: Removed most ajax page refreshes. All done behind the scenes
+		*2.11.0.2* #6399, route checkboxes incorrectly selected and reload bar up when it should not
+		*2.11.0.1* change text
+		*2.11.0.0* bump for 2.11 and change image
+		*2.10.0.2* fix Apply Config bar not coming up after updating a config without doing a page reload
+		*2.10.0.1* updates for bootstrap, misc
+		*2.10.0.0* new version changes
+		*2.9.0.1* #4543, Allows dtmfmode to be set to other valid values, qualify, qualifyfreq, and context to be set/removed differently without errors reported
+		*2.9.0.0* 2.9 Update
+		*2.8.0.7* Add remove Trunks and Keys option to SIPSTATION
+		*2.8.0.6* #4448
+		*2.8.0.5* #4310 undefined variables and spelling errors
+		*2.8.0.4* increase ajax and CURL TIMEOUT
+		*2.8.0.3* redefine core_routing_trunk_del and only if extension table is still there
+		*2.8.0.2* switch to new trunk dialrule apis
+		*2.8.0.1* report proper TEMPNOTAVAIL status when server replies with that, minor changes to install script
+		*2.8.0.0* update to use new Outbound Route APIs
+		*2.7.0.0* spelling, localizations
+		*2.6.0.3* add better error warnings when Contact/Network IP are different and not from private IP range
+		*2.6.0.2* bug fix that was not showing warning when Contact IP and Network IP were yellow
+		*2.6.0.1* add more details to noserver error
+		*2.6.0.0* tooltip edits, first release
+		*2.6.0RC1.0* Changed to gw1/gw2 separate registrations
+		*2.6.0beta1.6* collapsable section mods, added failover fields for future use, curl changes
+		*2.6.0beta1.5* css mods, new URL for xml access
+		*2.6.0beta1.4* many more bug fixes and tweaks
+		*2.6.0beta1.3* more status, lots of bug fixes
+		*2.6.0beta1.2* added install script to cleanup potential phantom trunks
+		*2.6.0beta1.1* first release
+	</changelog>
+    <depends>
+		<module>core ge 2.10</module>
+    </depends>
+	<supported>
+		<version>2.10</version>
+	</supported>
+	<location>release/2.11/sipstation-2.11.1.4.tgz</location>
+	<md5sum>cd89d523e8db158768d3afe1f201b192</md5sum>
+</module>

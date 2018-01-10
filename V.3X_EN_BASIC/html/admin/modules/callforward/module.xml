@@ -1,0 +1,44 @@
+<module>
+	<rawname>callforward</rawname>
+	<repo>standard</repo>
+	<name>Call Forward</name>
+	<version>2.11.5</version>
+	<publisher>Schmooze Com Inc</publisher>
+	<license>AGPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
+	<changelog>
+		*2.11.5* Generate license file
+		*2.11.1* Removed the ability to callforward other xtns by default.
+		*2.11.0.1* #6857 related
+		*2.11.0.0* bump version
+		*2.10.0.1* #5478 
+		*2.10.0.0* new version changes
+		*2.9.0.1* #4758
+		*2.9.0.0* #4651
+		*2.8.0.4* #4578
+		*2.8.0.3* #4294
+		*2.8.0.2* #4114, #4115, #3605
+		*2.8.0.1* #4214
+		*2.8.0.0* #4116, #4105 again
+		*2.7.0.2* #4103, #4104, #4105
+		*2.7.0.1* localizations
+		*2.7.0.0* #4047 CF toggle + devstate and hint additions
+		*2.6.0.1* Added publisher/lic
+		*2.6.0.0* #3650, #3651, localizations
+		*2.5.0.1* localization fixes
+		*2.5.0* localization fixes, Swedish
+		*2.4.0* bumped for 2.4
+		*1.1.2* #2321 fixed CF AMPUSER(number) issue, syntax problem
+		*1.1.1.2* changed categories
+		*1.1.1.1* bump for rc1
+		*1.1.1* changed ${CALLERID(number)} to ${AMPUSER} to accomodate CID number masquerading
+		*1.1* First release for 2.2
+	</changelog>
+	<description>Provides callforward featurecodes</description>
+	<category>Applications</category>
+	<supported>
+		<version>2.10</version>
+	</supported>
+	<location>release/2.11/callforward-2.11.0.1.tgz</location>
+	<md5sum>b0c78e01abcf34dba530ca9732862868</md5sum>
+</module>

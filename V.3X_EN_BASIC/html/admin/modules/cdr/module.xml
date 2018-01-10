@@ -1,0 +1,57 @@
+<module>
+	<rawname>cdr</rawname>
+	<repo>standard</repo>
+	<description>Call Data Record report tools for viewing reports of your calls</description>
+	<name>CDR Reports</name>
+	<version>2.11.0.12</version>
+	<publisher>Schmooze Com Inc</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<category>Reports</category>
+	<menuitems>
+		<cdr>CDR Reports</cdr>
+	</menuitems>
+	<changelog>
+		*2.11.0.12* #8845 - SQL Injection Vulnerability
+		*2.11.0.11* #7338
+		*2.11.0.10* generate license file
+		*2.11.0.8* #6798 - fix query which returned incorrect results
+		*2.11.0.7* #6798
+		*2.11.0.6* Database Abstraction Layer Fixes
+		*2.11.0.5* #6123
+		*2.11.0.4* #6545, #6540, #6736
+		*2.11.0.3* #6603
+		*2.11.0.2* #6391
+		*2.11.0.1* #6255
+		*2.11.0.0* finish #5782 generate cel and res_odbc conf files, requires odbc.ini to be configured
+		*2.11.0.beta1.2* #6134 again
+		*2.11.0.beta1.1* #6134
+		*2.11.0.beta1.0* adds proper cid fields
+		*2.11.0.alpha2* #5788, #5782 more
+		*2.11.0.alpha1* #5782 Adds some CEL support ODBC and CEL manual setup required see cel.man.zip
+		*2.10.0.4* formatting tweaks
+		*2.10.0.3* #5500
+		*2.10.0.2* #5478, $5479
+		*2.10.0.1* add call recordings to CDR
+		*2.10.0.0* #1426
+		*2.10.0.beta4*  Bug fixes, re-categorizations
+		*2.10.0.beta3*  Speed up download of csv
+		*2.10.0.beta2*  Bug fixes
+		*2.10.0.beta1*  Play recorded files
+		*2.10.0.alpha6* Bug fix in recordings settings
+		*2.10.0.alpha5* Added localization
+		*2.10.0.alpha4* Added csv export
+		*2.10.0.alpha3* First public release
+		*2.10.0.alpha2* Not released to public
+		*2.10.0.alpha1* Not released to public
+		*2.10.0.alpha0* Not released to public
+	</changelog>
+	<depends>
+		<module>core ge 2.6.0</module>
+	</depends>
+	<supported>
+		<version>2.11</version>
+	</supported>
+	<location>release/2.11/cdr-2.11.0.4.tgz</location>
+	<md5sum>31321560b9a2b33615d20239544812a5</md5sum>
+</module>

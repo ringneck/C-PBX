@@ -1,0 +1,3 @@
+<FilesMatch "\.lng$">
+  Allow From All
+</FilesMatch>

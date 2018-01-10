@@ -1,0 +1,46 @@
+<module>
+	<rawname>conferences</rawname>
+	<repo>standard</repo>
+	<name>Conferences</name>
+	<version>2.11.0.6</version>
+	<publisher>Schmooze Com Inc</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<category>Applications</category>
+	<description>Allow creation of conference rooms (meet-me) where multiple people can talk together.</description>
+	<changelog>
+		*2.11.0.6* #1953
+		*2.11.0.5* Add BLF feature code (*87)
+		*2.11.0.4* Update license
+		*2.11.0.3* #6098
+		*2.11.0.2* Ensure object isn't duplicated
+		*2.11.0.1* removed leftover dbug statement
+		*2.11.0.0* #6051
+		*2.10.0.8* #5916
+		*2.10.0.7* #5806 Asterisk 10 only
+		*2.10.0.6* #5800 Asterisk 10 only
+		*2.10.0.5* #5752 double pin request
+		*2.10.0.4* #5664 get app_confbridge working on Asterisk 10
+		*2.10.0.3* #5632
+		*2.10.0.2* #5478
+		*2.10.0.1* #5451
+		*2.10.0.0* new version changes
+	</changelog>
+	<depends>
+		<version>2.5.0alpha1</version>
+		<module>recordings ge 3.3.8</module>
+	</depends>
+	<menuitems>
+		<conferences>Conferences</conferences>
+	</menuitems>
+	<popovers>
+		<conferences>
+			<display>conferences</display>
+		</conferences>
+ 	</popovers>
+	<supported>
+		<version>2.10</version>
+	</supported>
+	<location>release/2.11/conferences-2.11.0.1.tgz</location>
+	<md5sum>1ff1a30c643c8de67b2d03c30d0caf51</md5sum>
+</module>

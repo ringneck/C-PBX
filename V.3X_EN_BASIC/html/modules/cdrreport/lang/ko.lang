@@ -1,0 +1,61 @@
+<?php
+/* vim: set expandtab tabstop=4 softtabstop=4 shiftwidth=4:
+  Codificación: UTF-8
+  +----------------------------------------------------------------------+
+  | Elastix version 0.5                                                  |
+  | http://www.elastix.org                                               |
+  +----------------------------------------------------------------------+
+  | Copyright (c) 2006 Palosanto Solutions S. A.                         |
+  +----------------------------------------------------------------------+
+  | Cdla. Nueva Kennedy Calle E 222 y 9na. Este                          |
+  | Telfs. 2283-268, 2294-440, 2284-356                                  |
+  | Guayaquil - Ecuador                                                  |
+  | http://www.palosanto.com                                             |
+  +----------------------------------------------------------------------+
+  | The contents of this file are subject to the General Public License  |
+  | (GPL) Version 2 (the "License"); you may not use this file except in |
+  | compliance with the License. You may obtain a copy of the License at |
+  | http://www.opensource.org/licenses/gpl-license.php                   |
+  |                                                                      |
+  | Software distributed under the License is distributed on an "AS IS"  |
+  | basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See  |
+  | the License for the specific language governing rights and           |
+  | limitations under the License.                                       |
+  +----------------------------------------------------------------------+
+  | The Original Code is: Elastix Open Source.                           |
+  | The Initial Developer of the Original Code is PaloSanto Solutions    |
+  +----------------------------------------------------------------------+
+  $Id: ko.lang,v 1.6 2007/09/05 00:36:42 gcarrillo Exp $ */
+global $arrLangModule;
+$arrLangModule=array(
+"Start Date" => "시작일",
+"End Date" => "종료일",
+"Field Name" => "필드 이름",
+"Field" => "필드",
+"CDR Report List" => "CDR 내역",
+"Account Code" => "계정 코드",
+"Date" => "일자",
+"Source" => "발신",
+"Destination" => "수신",
+"Src. Channel" => "발신 채널",
+"Dst. Channel" => "수신 채널",
+"Duration" => "기간",
+"Filter" => "필터",
+"Are you sure you wish to delete CDR(s) Report(s)?" => " CDR(s)을 정말 삭제 하시겠습니까?",
+"Status" => "상태",
+"ALL" => "전부",
+"ANSWERED" => "정상",
+"BUSY" => "통화중",
+"FAILED" => "실패",
+"NO ANSWER" => "부재중",
+"Delete" => "CDR(s) 삭제",
+"CDR Report" => "CDR 내역",
+"Please End Date must be greater than Start Date" => "마지막 날짜는 사작 날짜보다 반드시 빨라야 합니다",
+"Ring Group"=>"링그룹",
+"(Any ringgroup)"=>"(모든 링그룹)",
+"Your username does not have any extension assigned." => "이 계정에 연동된 내선이 없습니다",
+"contact_admin" => "이 계정에 연동된 내선이 없습니다 시스템 관리자에게 문의하세요",
+"no_extension" => "이 계정에 연동된 내선이 없습니다  내선 연동을 하시려면,  <a href=\"javascript: openWindow('index.php?menu=userlist&amp;action=edit_userExtension&amp;rawmode=yes');\">여기</a>를 클릭하세요",
+"Only administrators can delete CDRs" => "관리자만 CDR 내역을 삭제할 수 있습니다"
+);
+?>

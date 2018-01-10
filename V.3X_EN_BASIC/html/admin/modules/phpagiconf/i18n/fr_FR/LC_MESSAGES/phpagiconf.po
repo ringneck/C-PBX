@@ -1,0 +1,138 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# Copyright (C) 2009 Séverine GUTIERREZ, severine@medialsace.fr
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-23 09:52+0000\n"
+"PO-Revision-Date: 2009-04-21 15:24+ZONE\n"
+"Last-Translator: Séverine GUTIERREZ <severine@medialsace.fr>\n"
+"Language-Team: Français <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Error writing the phpagi.conf file."
+msgstr "Erreur lors de l'écriture du fichier phpagi.conf"
+
+msgid "PHPAGI Config:"
+msgstr "Configuration PHPAGI:"
+
+msgid "Main config:"
+msgstr "Paramètres principaux:"
+
+msgid "Debug:"
+msgstr ""
+
+msgid "Enable PHPAGI debugging."
+msgstr "Active le débogage PHPAGI."
+
+msgid "false"
+msgstr "faux"
+
+msgid "true"
+msgstr "vrai"
+
+msgid "Error handler:"
+msgstr "Gestion d'erreurs:"
+
+msgid "Use internal error handler."
+msgstr "Utiliser le gestionnaire d'erreurs interne."
+
+msgid "Mail errors to:"
+msgstr "Envoyer les erreurs à:"
+
+msgid "Email where the errors will be sent."
+msgstr "Email de réception des erreurs."
+
+msgid "Hostname of the server:"
+msgstr "Nom du serveur :"
+
+msgid "Hostname of this server."
+msgstr "Nom de ce serveur (hosname)."
+
+msgid "Temporary directory:"
+msgstr "Répertoire temporaire."
+
+msgid "Temporary directory for storing temporary output."
+msgstr "Répertoire temporaire."
+
+msgid "Festival config:"
+msgstr "Configuration de Festival:"
+
+msgid "Path to text2wave:"
+msgstr "Chemin de text2wave:"
+
+msgid "Path to text2wave binary."
+msgstr "Chemin de l'exécutable text2wave."
+
+msgid "Asterisk API settings:"
+msgstr "Paramètres d'accès à l'API Asterisk"
+
+msgid "Server:"
+msgstr "Serveur:"
+
+msgid "Server to connect to."
+msgstr "Adresse du serveur Asterisk sur lequel se connecter."
+
+msgid "Port:"
+msgstr "Port:"
+
+msgid "Port to connect to manager."
+msgstr "Port sur lequel se connecter."
+
+msgid "Fast AGI config:"
+msgstr "Configuration Fast AGI:"
+
+msgid "setuid:"
+msgstr ""
+
+msgid "Drop privileges to owner of script."
+msgstr ""
+"Permet aux scripts de s'exécuter avec les privilèges de leur propriétaire."
+
+msgid "Basedir:"
+msgstr ""
+
+msgid "Path to AGI scripts folder."
+msgstr "Chemin où se trouvent les scripts AGI."
+
+msgid "Cepstral config:"
+msgstr "Configuration de Cepstral:"
+
+msgid "Swift path:"
+msgstr "Chemin de Swift:"
+
+msgid "Path to cepstral TTS binary."
+msgstr "Chemin des binaires TTS de Cepstal."
+
+msgid "Cepstral voice:"
+msgstr "Voix Cepstral :"
+
+msgid "TTS Voice used."
+msgstr "Voix TTS utilisée"
+
+msgid "Submit Changes"
+msgstr "Appliquer les Modifications"
+
+msgid "PHPAGI Config"
+msgstr "Config PHPAGI"
+
+msgid "Settings"
+msgstr ""

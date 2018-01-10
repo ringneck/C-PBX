@@ -1,0 +1,33 @@
+<module>
+	<rawname>manager</rawname>
+	<repo>standard</repo>
+	<name>Asterisk Manager Users</name>
+	<version>2.11.0.5</version>
+	<publisher>Schmooze Com Inc</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<category>Settings</category>
+	<menuitems>
+		<manager>Asterisk Manager Users</manager>
+	</menuitems>
+	<changelog>
+		*2.11.0.5* Added manager setting of message
+		*2.11.0.4* Add license file
+		*2.11.0.3* Move module to standard repository
+		*2.11.0.2* #6088, don't allow duplicate FreePBX managers and rename
+		*2.11.0.1* #6429
+		*2.11.0.0* bump version
+		*2.10.0.2* #5565 properly generate manager_additional.conf with manager_conf class
+		*2.10.0.1* #5478
+		*2.10.0.0* new version changes
+		*2.9.0.3* #5097
+		*2.9.0.2* spelling, localizations
+		*2.9.0.1* removed duplicate functions, set repository
+		*2.9.0.0* 2.9 Update
+	</changelog>
+	<supported>
+		<version>2.10</version>
+	</supported>
+	<location>release/2.11/manager-2.11.0.1.tgz</location>
+	<md5sum>f78eed1f4b614c9f198864ec4b414997</md5sum>
+</module>

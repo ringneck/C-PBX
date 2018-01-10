@@ -1,0 +1,70 @@
+<?php
+/* vim: set expandtab tabstop=4 softtabstop=4 shiftwidth=4:
+  Codificación: UTF-8
+  +----------------------------------------------------------------------+
+  | Elastix version 0.5                                                  |
+  | http://www.elastix.org                                               |
+  +----------------------------------------------------------------------+
+  | Copyright (c) 2006 Palosanto Solutions S. A.                         |
+  +----------------------------------------------------------------------+
+  | Cdla. Nueva Kennedy Calle E 222 y 9na. Este                          |
+  | Telfs. 2283-268, 2294-440, 2284-356                                  |
+  | Guayaquil - Ecuador                                                  |
+  | http://www.palosanto.com                                             |
+  +----------------------------------------------------------------------+
+  | The contents of this file are subject to the General Public License  |
+  | (GPL) Version 2 (the "License"); you may not use this file except in |
+  | compliance with the License. You may obtain a copy of the License at |
+  | http://www.opensource.org/licenses/gpl-license.php                   |
+  |                                                                      |
+  | Software distributed under the License is distributed on an "AS IS"  |
+  | basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See  |
+  | the License for the specific language governing rights and           |
+  | limitations under the License.                                       |
+  +----------------------------------------------------------------------+
+  | The Original Code is: Elastix Open Source.                           |
+  | The Initial Developer of the Original Code is PaloSanto Solutions    |
+  +----------------------------------------------------------------------+
+  $Id: ko.lang,v 1.7 2007/09/05 00:36:42 gcarrillo Exp $ */
+global $arrLangModule;
+$arrLangModule=array(
+"Option" => "옵션",
+"Unembedded FreePBX®" => "PBX 코어",
+"Basic" => "기본",
+"Extensions" => "내선",
+"Feature Codes" => "기능코드",
+"General Settings" => "일반적인 설정",
+"Outbound Routes" => "발신 설정",
+"Trunks" => "트렁크",
+"Inbound Call Control" => "수신 콜 제어",
+"Inbound Routes" => "수신 설정",
+"Announcements" => "안내멘트",
+"Follow Me" => "Follow Me",
+"IVR" => "IVR",
+"Misc Destinations" => "기타 수신설정",
+"Queues" => "큐",
+"Ring Groups" => "링그룹",
+"Time Conditions" => "시간 라우트",
+"Internal Options & Configuration" => "내부 옵션 및 설정",
+"Conferences" => "컨퍼런스",
+"Misc Applications" => "기타 응용프로그램",
+"Music on Hold" => "보류음악",
+"PIN Sets" => "PIN 설정",
+"Paging and Intercom" => "인터컴 & 페이징",
+"Parking Lot" => "파킹",
+"System Recordings" => "멘트 녹음",
+"Remote Access" => "외부 접근",
+"Callback" => "콜백",
+"DISA" => "DISA",
+"Warning: Updating FreePBX® through its web interface will cause it to install versions that may have not yet been properly integrated with Elastix. To avoid conflicts, it is always recommended to search/install updates only through the linux command \"yum update freePBX\"." => "Advertencia: Actualizar FreePBX® a través de su interfaz web ocasionará que se instalen versiones que pudieran aún no haber sido correctamente integradas con Elastix. <br />FreePBX® es una marca registrada de Schmooze Com, Inc. Para más detalles visite www.freepbx.org y www.schmoozecom.com. Para evitar conflictos con Elastix, es siempre recomendable buscar/instalar actualizaciones únicamente a través del comando linux \"yum update freePBX\".",
+"PBX Configuration" => "PBX 설정",
+"Blacklist" => "블랙 리스트",
+"CallerID Lookup Sources" => " 발신자표시 조회",
+"Call Flow Control" => "통화흐름제어",
+"DAHDI Channel DIDs" => "DAHDI DID",
+"Queue Priorities" => "큐 우선순위",
+"Time Groups" => "시간 그룹",
+"Languages" => "언어",
+"VoiceMail Blasting" => "음성사서함"
+);
+?>

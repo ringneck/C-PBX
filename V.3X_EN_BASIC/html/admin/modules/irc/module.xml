@@ -1,0 +1,30 @@
+<module>
+  <rawname>irc</rawname>
+  <repo>extended</repo>
+  <name>Online Support</name>
+  <version>2.11.0.4</version>
+  <publisher>Schmooze Com Inc</publisher>
+  <license>GPLv3+</license>
+  <licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+  <category>Admin</category>
+  <description>This module lets you connect to the IRC network where developers and other users chat. You can chat to the developers live, if you have problems</description>
+  <changelog>
+	  	*2.11.0.4* Sign Jar Files, fix language issues
+  		*2.11.0.3* Include license file
+		*2.11.0.1* Remove old company name.
+		*2.11.0.0* bump version
+		*2.10.0.2* #5478 
+		*2.10.0.1* #5341
+		*2.10.0.0* new version changes
+		*2.9.0.1* set repository
+		*2.9.0.0* 2.9 Update
+	</changelog>
+  <menuitems>
+    <irc>Online Support</irc>
+  </menuitems>
+  <location>release/2.11/irc-2.11.0.1.tgz</location>
+  <md5sum>ede75074ed55cfc5d4cb10d0c8c8b802</md5sum>
+  <supported>
+    <version>2.10</version>
+  </supported>
+</module>
