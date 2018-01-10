@@ -30,7 +30,7 @@ Based on raspbx-03-12-2017.zip.torrent
 2. Packages - V 3.X
 
   - Asterisk 11.25.3
-  - FreePBX  2.11.43
+  - FreePBX  2.11.0.43
   - Elastix  4.X 
   - Apache Apache/2.4.25 (Raspbian)
   - PHP 5.6.30-0+deb8u1 (cli) (built: Apr 14 2017 16:20:58) 
