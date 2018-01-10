@@ -103,7 +103,10 @@ make && make install && chown -R asterisk. /var/lib/asterisk
 
 # Install FreePBX
 ```bash
-cd /usr/src/olssoo/freepbx
+cd /usr/src/olssoo/
+wget http://mirror.freepbx.org/freepbx-2.11.0.43.tgz
+tar zxvf freepbx-2.11.0.43.tgz
+cd freepbx-2.11.0.43
 systemctl start mariadb
 mysqladmin create asterisk
 mysqladmin create asteriskcdrdb
@@ -111,7 +114,7 @@ mysql asterisk < SQL/newinstall.sql
 ```
 
 ```bash
-cd /usr/src/olssoo/
+cd /usr/src/olssoo/freepbx-2.11.0.43
 mysqladmin create meetme
 mysql meetme dpbx-meetme.sql
 mysql asteriskcdrdb < SQL/cdr_mysql_table.sql
@@ -124,7 +127,7 @@ flush privileges;
 
 ```bash
 /usr/sbin/safe_asterisk
-cd /usr/src/olssoo/freepbx
+cd /usr/src/olssoo/freepbx-2.11.0.43
 ./install_amp
 ```
 ```bash
