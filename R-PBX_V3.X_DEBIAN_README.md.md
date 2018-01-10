@@ -51,8 +51,8 @@ Based on raspbx-03-12-2017.zip.torrent
 Install O/S.
 
 Update O/S.
-apt -y update && apt -y upgrade
-reboot
+###apt -y update && apt -y upgrade
+###reboot
 
 
 Install Sqlite.
