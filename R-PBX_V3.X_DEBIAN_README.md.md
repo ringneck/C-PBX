@@ -134,6 +134,15 @@ cd /usr/src/olssoo/freepbx-2.11.0.43
 echo /usr/local/sbin/amportal start >> /etc/rc.local
 reboot
 ```
+# Install WebGUI
+```bash
+cd /usr/src/olssoo
+mv /var/www/html /var/www/html_org
+git clone https://github.com/ringneck/R-PBX.git
+cd R-PBX/V.3X_EN_BASIC
+\cp -pr html /var/www/html
+```
+
 
 ## 참조문서
 
