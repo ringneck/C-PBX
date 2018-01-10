@@ -61,30 +61,33 @@ Install Sqlite.
 ```bash
 apt -y install php5-sqlite dialog libsasl2-2 libsasl2-modules sasl2-bin libsqlite3-dev libssl1.0-dev php-db
 ```
+
+Install Prepare Packages.
+
 ```bash
 apt -y install  dnsmasq logrotate fail2ban whois alsa-utils  dialog mpg123 lame  xinetd libtool  composer vim libssl1.0-dev libneon27-dev libical-dev
 ```
-
-Install Prepare Packages.
 ```bash
 apt -y install build-essential openssh-server apache2 mysql-server mysql-client bison flex php5 php5-curl php5-cli php5-mysql php-pear php5-gd curl sox libncurses5-dev libssl-dev libmysqlclient-dev mpg123 libxml2-dev libnewt-dev sqlite3 libsqlite3-dev pkg-config automake libtool autoconf git subversion uuid uuid-dev libiksemel-dev tftpd postfix mailutils nano ntp chkconfig libspandsp-dev libcurl4-gnutls-dev unixodbc unixodbc-dev libmyodbc xinetd e2fsprogs linux-headers*
 ```
+
 ```bash
 reboot
 ```
 
-# time config
+# 시간설정
 ```bash
 timedatectl set-timezone Asia/Seoul
 timedatectl status
 ```
 
-# Core Install
+# Asterisk Install
 Add users.
 ```bash
 adduser asterisk --disabled-password --gecos “OLSSOO FACTORY”
 adduser olssoo --disabled-password --gecos “OLSSOO FACTORY”
 ```
+
 ```bash
 cd /usr/src/olssoo
 wget http://downloads.asterisk.org/pub/telephony/asterisk/releases/asterisk-11.25.3.tar.gz
@@ -106,7 +109,9 @@ mysqladmin create asterisk
 mysqladmin create asteriskcdrdb
 mysql asterisk < SQL/newinstall.sql
 ```
+
 # Install conference
+```bash
 cd /usr/src/olssoo/
 mysqladmin create meetme
 mysql meetme dpbx-meetme.sql
@@ -117,6 +122,7 @@ GRANT ALL PRIVILEGES ON asterisk.* TO asteriskuser@localhost IDENTIFIED BY ‘yo
 GRANT ALL PRIVILEGES ON asteriskcdrdb.* TO asteriskuser@localhost IDENTIFIED BY ‘your_password’;
 flush privileges;
 ```
+
 ```bash
 /usr/sbin/safe_asterisk
 cd /usr/src/olssoo/freepbx
