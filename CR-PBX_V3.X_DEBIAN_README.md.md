@@ -75,7 +75,7 @@ apt -y install build-essential openssh-server apache2 mysql-server mysql-client 
 reboot
 ```
 
-# 시간설정
+# Time Config
 ```bash
 timedatectl set-timezone Asia/Seoul
 timedatectl status
@@ -144,6 +144,6 @@ cd R-PBX/V.3X_EN_BASIC
 ```
 
 
-## 참조문서
+## Reference
 
 https://wiki.freepbx.org/display/FOP/Installing+FreePBX+2.11+on+Debian+Wheezy
