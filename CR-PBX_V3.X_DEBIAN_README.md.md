@@ -96,7 +96,7 @@ mkdir -p /usr/src/olssoo
 cd /usr/src/olssoo
 wget http://downloads.asterisk.org/pub/telephony/asterisk/releases/asterisk-11.25.3.tar.gz
 tar zxvf asterisk-11.25.3.tar.gz
-cd /usr/src/olssoo/asterisk-11.25.3
+cd asterisk-11.25.3
 make distclean
 ./contrib/scripts/install_prereq install
 ./contrib/scripts/get_mp3_source.sh
