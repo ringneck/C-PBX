@@ -102,7 +102,7 @@ apt-get install -y build-essential openssh-server bison flex php5 php5-curl php5
 reboot
 ```
 
-# Asterisk Install (Long logn time...)
+# Asterisk Install 11.25.3 (Long long time...)
 Add users.
 ```bash
 adduser olssoo --disabled-password --gecos "OLSSOO FACTORY"
@@ -122,7 +122,7 @@ make menuselect
 make && make install && chown -R asterisk. /var/lib/asterisk
 ```
 
-# Install FreePBX
+# Install FreePBX 2.11.0.43
 ```bash
 cd /usr/src/olssoo/
 wget http://mirror.freepbx.org/freepbx-2.11.0.43.tgz
@@ -168,3 +168,4 @@ cd R-PBX/V.3X_EN_BASIC
 ## Reference
 
 http://www.raspberry-asterisk.org/
+https://wiki.freepbx.org/display/FOP/Installing+FreePBX+2.11+on+Debian+Wheezy
