@@ -1,4 +1,4 @@
-# CR-PBX V3.X Debian Jessie
+# CR-PBX V3.X Based on RasPBX (Debian Jessie)
 
 Based on raspbx-03-12-2017.zip.torrent 
 (http://www.raspberry-asterisk.org/downloads/)
@@ -8,7 +8,6 @@ Based on raspbx-03-12-2017.zip.torrent
 
 
 # Open Source 
-
   - Asterisk : https://www.asterisk.org
   - Elastix : https://www.elastix.org
   - FreePBX : https://www.freepbx.org
@@ -16,7 +15,6 @@ Based on raspbx-03-12-2017.zip.torrent
 
 
 # Commercial Services
-
   - OLSSOO : http://www.olssoo.com
   
 
@@ -24,10 +22,9 @@ Based on raspbx-03-12-2017.zip.torrent
 # Overview R-PBX RPi 3
 
 1. O/S 
-  - Based on Raspberry Pi Foundation’s official Raspbian Stretch.
+  - Based on RasPBX (Raspberry Pi Foundation’s official Raspbian Stretch)
 
 2. Packages - V 3.X
-
   - Asterisk 11.25.3
   - FreePBX  2.11.0.43
   - Elastix  4.X 
@@ -35,28 +32,26 @@ Based on raspbx-03-12-2017.zip.torrent
   - PHP 5.6.30-0+deb8u1 (cli) (built: Apr 14 2017 16:20:58) 
   - Zend Engine v2.6.0
   - MariaDB 10.1.23-MariaDB-9+deb9u1 Raspbian 9.0
-  - OLSSOO FACTORY Custmizing.
 
 
 # Prepare
-
   - SIP Phone (Soft, Hard) or VoIP G/W(ATA/MTA) 2 more. 
   - SD Card, RPi 3, Networking  
   - Option for Outbound : Trunk(SIP)
   
  
-# Installation
+# Installation (root)
 
-Must be root.
+Making SD Card with raspbx-03-12-2017.zip.torrent 
+(http://www.raspberry-asterisk.org/downloads/)
 
-Install O/S.
 
-Update O/S.
-
+- Update O/S.
 ```bash
 apt -y update && apt -y upgrade
 reboot
 ```
+
 
 Install Sqlite.
 ```bash
@@ -148,4 +143,4 @@ cd R-PBX/V.3X_EN_BASIC
 
 ## Reference
 
-https://wiki.freepbx.org/display/FOP/Installing+FreePBX+2.11+on+Debian+Wheezy
+http://www.raspberry-asterisk.org/
