@@ -49,6 +49,8 @@ Based on raspbx-03-12-2017.zip.torrent
  
 # Installation
 
+Must be root.
+
 Install O/S.
 
 Update O/S.
