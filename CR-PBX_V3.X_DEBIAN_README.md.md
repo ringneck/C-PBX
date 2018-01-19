@@ -62,7 +62,7 @@ reboot
 
 Install Sqlite.
 ```bash
-apt -y install php5-sqlite dialog libsasl2-2 libsasl2-modules sasl2-bin libsqlite3-dev libssl1.0-dev php-db
+apt -y install dialog libsasl2-2 libsasl2-modules sasl2-bin libsqlite3-dev libssl1.0-dev php-db
 ```
 
 Install Prepare Packages.
