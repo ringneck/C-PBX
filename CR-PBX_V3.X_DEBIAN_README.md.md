@@ -46,6 +46,29 @@ Making SD Card with raspbx-03-12-2017.zip.torrent
 (http://www.raspberry-asterisk.org/downloads/)
 
 
+# Static IP Address Config
+
+Edit this file
+```bash
+nano /etc/dhcpcd.conf
+```
+
+Like this
+```bash
+interface eth0
+static ip_address=192.168.0.10/24
+static routers=192.168.0.1
+static domain_name_servers=192.168.0.1
+```
+
+# Remove Asterisk 13 and Freepbx 14
+```bash
+apt -y update && apt -y upgrade
+reboot
+```
+
+
+
 - Update O/S.
 ```bash
 apt -y update && apt -y upgrade
