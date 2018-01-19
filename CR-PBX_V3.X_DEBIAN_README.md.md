@@ -87,8 +87,8 @@ timedatectl status
 # Asterisk Install
 Add users.
 ```bash
-adduser asterisk --disabled-password --gecos “OLSSOO FACTORY”
-adduser olssoo --disabled-password --gecos “OLSSOO FACTORY”
+adduser asterisk --disabled-password --gecos "OLSSOO FACTORY"
+adduser olssoo --disabled-password --gecos "OLSSOO FACTORY"
 ```
 
 ```bash
