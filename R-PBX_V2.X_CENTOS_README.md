@@ -1,4 +1,5 @@
 
+# It is centos version
 
 # R-PBX
 
@@ -71,11 +72,11 @@ V 2.X
   - Include access to OLSSOO Connected Services (ing...)
    
    
-# 기능 코드 추가   
+# Function code   
 
-1234 => R-PBX 소개
+1234 => R-PBX intro
 
-*43 => 에코 테스트 (Skype 품질테스트와 비슷)
+*43 => echo test  (aka Skype)
 
 **015500 =>  R-PBX ADMIN IVR (ing..)
 
