@@ -86,15 +86,11 @@ timedatectl status
 apt-get -y remove asterisk13
 ```
 
-
-
-
-Install Sqlite.
+Install Prepare Packages.
 ```bash
 apt -y install  dnsmasq logrotate fail2ban whois alsa-utils  dialog mpg123 lame  xinetd libtool  composer vim libssl1.0-dev libneon27-dev libical-dev subversion
+reboot
 ```
-
-Install Prepare Packages.
 
 ```bash
 apt -y install php5-sqlite dialog libsasl2-2 libsasl2-modules sasl2-bin libsqlite3-dev php-db  dnsmasq logrotate fail2ban whois alsa-utils  dialog mpg123 lame  xinetd libtool  composer vim libical-dev
