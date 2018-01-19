@@ -88,7 +88,7 @@ apt-get -y remove asterisk13
 
 Install Prepare Packages.
 ```bash
-apt -y install  dnsmasq logrotate fail2ban whois alsa-utils  dialog mpg123 lame  xinetd libtool  composer vim libssl-dev libneon27-dev libical-dev subversion
+apt -y install  dnsmasq logrotate fail2ban whois alsa-utils  dialog mpg123 lame  xinetd libtool  composer vim libssl-dev libneon27-dev libical-dev subversion libgnutls28-dev
 reboot
 ```
 
