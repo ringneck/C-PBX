@@ -102,6 +102,13 @@ apt-get install -y build-essential openssh-server bison flex php5 php5-curl php5
 reboot
 ```
 
+# Install PearDB
+
+```bash
+pear uninstall db
+pear install db-1.7.14
+```
+
 # Asterisk Install 11.25.3 (Long long time...)
 Add users.
 ```bash
