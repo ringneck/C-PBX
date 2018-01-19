@@ -74,49 +74,40 @@ apt -y update && apt -y upgrade
 reboot
 ```
 
-# Remove Asterisk 13 and Freepbx 14
-```bash
-apt-get -y remove asterisk13
-reboot
-```
-
-
-
-- Update O/S.
-```bash
-apt -y update && apt -y upgrade
-reboot
-```
-
-
-Install Sqlite.
-```bash
-apt -y install dialog libsasl2-2 libsasl2-modules sasl2-bin libsqlite3-dev libssl1.0-dev php-db
-```
-
-Install Prepare Packages.
-
-```bash
-apt -y install  dnsmasq logrotate fail2ban whois alsa-utils  dialog mpg123 lame  xinetd libtool  composer vim libssl-dev libneon27-dev libical-dev
-```
-```bash
-apt -y install build-essential openssh-server apache2 mysql-server mysql-client bison flex php-pear curl sox libncurses5-dev libssl-dev mpg123 libxml2-dev libnewt-dev sqlite3 libsqlite3-dev pkg-config automake libtool autoconf git subversion uuid uuid-dev libiksemel-dev tftpd postfix mailutils nano ntp chkconfig libspandsp-dev libcurl4-gnutls-dev unixodbc unixodbc-dev  xinetd e2fsprogs linux-headers*
-```
-
-```bash
-reboot
-```
-
 # Time Config
 ```bash
 timedatectl set-timezone Asia/Seoul
 timedatectl status
 ```
 
+
+# Remove Asterisk 13
+```bash
+apt-get -y remove asterisk13
+```
+
+
+
+
+Install Sqlite.
+```bash
+apt -y install  dnsmasq logrotate fail2ban whois alsa-utils  dialog mpg123 lame  xinetd libtool  composer vim libssl1.0-dev libneon27-dev libical-dev
+```
+
+Install Prepare Packages.
+
+```bash
+apt -y install php5-sqlite dialog libsasl2-2 libsasl2-modules sasl2-bin libsqlite3-dev php-db  dnsmasq logrotate fail2ban whois alsa-utils  dialog mpg123 lame  xinetd libtool  composer vim libssl-dev libneon27-dev libical-dev
+reboot
+```
+
+```bash
+apt -y  install build-essential openssh-server apache2  bison flex php5 php5-curl php5-cli php5-mysql php-pear php5-gd curl sox libncurses5-dev libssl-dev libmysqlclient-dev mpg123 libxml2-dev libnewt-dev sqlite3 libsqlite3-dev pkg-config automake libtool autoconf git subversion uuid uuid-dev libiksemel-dev tftpd postfix mailutils nano ntp chkconfig libspandsp-dev libcurl4-gnutls-dev unixodbc unixodbc-dev libmyodbc xinetd e2fsprogs linux-headers*
+```
+
 # Asterisk Install
 Add users.
 ```bash
-adduser asterisk --disabled-password --gecos "OLSSOO FACTORY"
 adduser olssoo --disabled-password --gecos "OLSSOO FACTORY"
 ```
 
