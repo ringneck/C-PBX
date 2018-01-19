@@ -45,6 +45,12 @@ Based on raspbx-03-12-2017.zip.torrent
 Making SD Card with raspbx-03-12-2017.zip.torrent 
 (http://www.raspberry-asterisk.org/downloads/)
 
+# Default SSH Login
+
+```bash
+ssh -l root DHCP
+password : raspberry
+```
 
 # Static IP Address Config
 
@@ -61,9 +67,16 @@ static routers=192.168.0.1
 static domain_name_servers=192.168.0.1
 ```
 
-# Remove Asterisk 13 and Freepbx 14
+# Update and Upgrade O/S
+
 ```bash
 apt -y update && apt -y upgrade
+reboot
+```
+
+# Remove Asterisk 13 and Freepbx 14
+```bash
+apt-get -y remove asterisk13
 reboot
 ```
 
