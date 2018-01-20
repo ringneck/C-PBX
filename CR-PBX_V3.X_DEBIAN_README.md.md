@@ -126,9 +126,10 @@ make && make install && chown -R asterisk. /var/lib/asterisk
 
 # Install WebGUI Source (Include FreePBX and Elastix GUI)
 ```bash
-mv /var/www/html /var/www/html_org
+mkdir -p /usr/local/elastix
+mv /var/www /var/www_org
 cd /usr/src/olssoo
-git clone https://github.com/ringneck/R-PBX.git
+git clone https://github.com/ringneck/C-PBX.git
 cd R-PBX/V.3X_EN_BASIC
 \cp -pr html /var/www/html
 ```
