@@ -88,7 +88,7 @@ apt-get -y remove asterisk13
 
 Install Prepare Packages.
 ```bash
-apt -y install  dnsmasq logrotate fail2ban whois alsa-utils  dialog mpg123 lame  xinetd libtool  composer vim libssl1.0-dev libneon27-dev libical-dev subversion libgnutls28-dev curl sox nano php5-sqlite libsasl2-2 libsasl2-modules sasl2-bin libsqlite3-dev php-db logrotate fail2ban whois alsa-utils php-tcpdf php-pdo
+apt -y install  dnsmasq logrotate fail2ban whois alsa-utils  dialog mpg123 lame  xinetd libtool  composer vim libssl1.0-dev libical-dev subversion libgnutls28-dev curl sox nano php5-sqlite libsasl2-2 libsasl2-modules sasl2-bin libsqlite3-dev php-db logrotate fail2ban whois alsa-utils php-tcpdf php-pdo
 reboot
 ```
 
