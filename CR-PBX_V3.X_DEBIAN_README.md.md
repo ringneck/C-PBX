@@ -88,17 +88,12 @@ apt-get -y remove asterisk13
 
 Install Prepare Packages.
 ```bash
-apt -y install  dnsmasq logrotate fail2ban whois alsa-utils  dialog mpg123 lame  xinetd libtool  composer vim libssl-dev libneon27-dev libical-dev subversion libgnutls28-dev
+apt -y install  dnsmasq logrotate fail2ban whois alsa-utils  dialog mpg123 lame  xinetd libtool  composer vim libssl1.0-dev libneon27-dev libical-dev subversion libgnutls28-dev curl sox nano php5-sqlite libsasl2-2 libsasl2-modules sasl2-bin libsqlite3-dev php-db logrotate fail2ban whois alsa-utils
 reboot
 ```
 
 ```bash
-apt -y install php5-sqlite dialog libsasl2-2 libsasl2-modules sasl2-bin libsqlite3-dev php-db  dnsmasq logrotate fail2ban whois alsa-utils  dialog mpg123 lame  xinetd libtool  composer vim libical-dev
-reboot
-```
-
-```bash
-apt-get install -y build-essential openssh-server bison flex php5 php5-curl php5-cli php5-mysql php-pear php5-gd curl sox libncurses5-dev libssl-dev libmysqlclient-dev mpg123 libxml2-dev libnewt-dev sqlite3 libsqlite3-dev pkg-config automake libtool autoconf git subversion uuid uuid-dev libiksemel-dev tftpd  mailutils nano ntp chkconfig libspandsp-dev libcurl4-gnutls-dev unixodbc unixodbc-dev libmyodbc xinetd e2fsprogs linux-headers*
+apt-get install -y build-essential openssh-server bison flex php5 php5-curl php5-cli php5-mysql php-pear php5-gd libncurses5-dev  libmysqlclient-dev libxml2-dev libnewt-dev sqlite3 libsqlite3-dev pkg-config automake libtool autoconf git subversion uuid uuid-dev libiksemel-dev tftpd  mailutils ntp chkconfig libspandsp-dev libcurl4-gnutls-dev unixodbc unixodbc-dev libmyodbc xinetd e2fsprogs linux-headers*
 reboot
 ```
 
@@ -122,7 +117,6 @@ wget http://downloads.asterisk.org/pub/telephony/asterisk/releases/asterisk-11.2
 tar zxvf asterisk-11.25.3.tar.gz
 cd asterisk-11.25.3
 make distclean
-./contrib/scripts/install_prereq install
 ./contrib/scripts/get_mp3_source.sh
 ./configure
 make menuselect
