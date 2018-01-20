@@ -123,6 +123,17 @@ make menuselect
 make && make install && chown -R asterisk. /var/lib/asterisk
 ```
 
+
+# Install WebGUI Source (Include FreePBX and Elastix GUI)
+```bash
+mv /var/www/html /var/www/html_org
+cd /usr/src/olssoo
+git clone https://github.com/ringneck/R-PBX.git
+cd R-PBX/V.3X_EN_BASIC
+\cp -pr html /var/www/html
+```
+
+
 # Install FreePBX 2.11.0.43
 ```bash
 cd /usr/src/olssoo/
@@ -152,17 +163,10 @@ flush privileges;
 cd /usr/src/olssoo/freepbx-2.11.0.43
 ./install_amp
 ```
+
 ```bash
 echo /usr/local/sbin/amportal start >> /etc/rc.local
 reboot
-```
-# Install WebGUI (Elastix)
-```bash
-cd /usr/src/olssoo
-mv /var/www/html /var/www/html_org
-git clone https://github.com/ringneck/R-PBX.git
-cd R-PBX/V.3X_EN_BASIC
-\cp -pr html /var/www/html
 ```
 
 
