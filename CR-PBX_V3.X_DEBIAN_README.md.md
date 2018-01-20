@@ -88,7 +88,7 @@ apt-get -y remove asterisk13
 
 Install Prepare Packages.
 ```bash
-apt -y install  dnsmasq logrotate fail2ban whois alsa-utils  dialog mpg123 lame  xinetd libtool  composer vim libssl1.0-dev libical-dev subversion libgnutls28-dev curl sox nano php5-sqlite libsasl2-2 libsasl2-modules sasl2-bin libsqlite3-dev php-db logrotate fail2ban whois alsa-utils php-tcpdf php-pdo
+apt -y install dialog mpg123 lame  xinetd libtool  composer vim libssl1.0-dev libical-dev subversion libgnutls28-dev curl sox nano php5-sqlite libsasl2-2 libsasl2-modules sasl2-bin libsqlite3-dev php-db logrotate alsa-utils php-tcpdf php-pdo
 reboot
 ```
 
@@ -105,10 +105,6 @@ pear install db-1.7.14
 ```
 
 # Asterisk Install 11.25.3 (Long long time...)
-Add users.
-```bash
-adduser olssoo --disabled-password --gecos "OLSSOO FACTORY"
-```
 
 ```bash
 mkdir -p /usr/src/olssoo
@@ -122,18 +118,6 @@ make distclean
 make menuselect
 make && make install && chown -R asterisk. /var/lib/asterisk
 ```
-
-
-# Install WebGUI Source (Include FreePBX and Elastix GUI)
-```bash
-mkdir -p /usr/local/elastix
-mv /var/www /var/www_org
-cd /usr/src/olssoo
-git clone https://github.com/ringneck/C-PBX.git
-cd R-PBX/V.3X_EN_BASIC
-\cp -pr html /var/www/html
-```
-
 
 # Install FreePBX 2.11.0.43
 ```bash
@@ -168,6 +152,16 @@ cd /usr/src/olssoo/freepbx-2.11.0.43
 ```bash
 echo /usr/local/sbin/amportal start >> /etc/rc.local
 reboot
+```
+
+# Install WebGUI Source (Include FreePBX and Elastix GUI)
+```bash
+mkdir -p /usr/local/elastix
+mv /var/www /var/www_org
+cd /usr/src/olssoo
+git clone https://github.com/ringneck/C-PBX.git
+cd R-PBX/V.3X_EN_BASIC
+\cp -pr www /var/www
 ```
 
 
